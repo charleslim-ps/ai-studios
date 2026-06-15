@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T04:59:41.196Z",
+  "generatedAt": "2026-06-15T05:10:36.491Z",
   "studios": [
     {
       "id": "hq",
@@ -20,39 +20,81 @@
         "repo": "charleslim-ps/ai-studios",
         "linearProjectId": "775ab66a-b4c7-494f-9a3b-d5b91a03a56f"
       },
-      "health": "ok",
+      "health": "down",
       "signals": {
         "lastRun": {
-          "status": "success",
-          "at": "2026-06-15T04:57:12Z"
+          "status": "in_progress",
+          "at": "2026-06-15T05:10:29Z"
         },
         "deploy": {
           "status": "success",
-          "at": "2026-06-15T04:57:13Z"
+          "at": "2026-06-15T05:02:15Z"
         },
         "freshnessDays": 0,
         "expectedCadenceDays": 14
       },
-      "roadmap": [],
-      "todos": [],
+      "roadmap": [
+        {
+          "title": "Charles AI Studios HQ",
+          "state": "backlog"
+        }
+      ],
+      "todos": [
+        {
+          "title": "Build this launchpad (cake tower renderer)",
+          "state": "backlog",
+          "priority": 2,
+          "link": "https://linear.app/charles-ai/issue/CHA-28/build-this-launchpad-cake-tower-renderer"
+        },
+        {
+          "title": "Asset pipeline (1200² iso room art)",
+          "state": "backlog",
+          "priority": 3,
+          "link": "https://linear.app/charles-ai/issue/CHA-31/asset-pipeline-1200²-iso-room-art"
+        },
+        {
+          "title": "Composer (Linear + GitHub pulls)",
+          "state": "backlog",
+          "priority": 3,
+          "link": "https://linear.app/charles-ai/issue/CHA-30/composer-linear-github-pulls"
+        },
+        {
+          "title": "manifest + status schema",
+          "state": "backlog",
+          "priority": 3,
+          "link": "https://linear.app/charles-ai/issue/CHA-29/manifest-status-schema"
+        }
+      ],
       "activity": [
         {
-          "at": "2026-06-15T04:57:28Z",
+          "at": "2026-06-15T05:10:29Z",
           "type": "run",
-          "summary": "pages build and deployment: success",
-          "link": "https://github.com/charleslim-ps/ai-studios/actions/runs/27524949486"
+          "summary": "Refresh studios.json: in_progress",
+          "link": "https://github.com/charleslim-ps/ai-studios/actions/runs/27525395764"
         },
         {
-          "at": "2026-06-15T04:57:12Z",
+          "at": "2026-06-15T05:02:25Z",
           "type": "run",
           "summary": "Deploy to GitHub Pages: success",
-          "link": "https://github.com/charleslim-ps/ai-studios/actions/runs/27524949965"
+          "link": "https://github.com/charleslim-ps/ai-studios/actions/runs/27525110936"
         },
         {
-          "at": "2026-06-15T04:56:59Z",
+          "at": "2026-06-15T05:02:08Z",
           "type": "run",
           "summary": "Validate: success",
-          "link": "https://github.com/charleslim-ps/ai-studios/actions/runs/27524949954"
+          "link": "https://github.com/charleslim-ps/ai-studios/actions/runs/27525110951"
+        },
+        {
+          "at": "2026-06-15T05:01:47Z",
+          "type": "commit",
+          "summary": "Update tagline to \"A stack of studios. Click to launch or inspect.\"",
+          "link": "https://github.com/charleslim-ps/ai-studios/commit/6b013aaffceba81c4ed3cd59825d520303495755"
+        },
+        {
+          "at": "2026-06-15T04:59:41Z",
+          "type": "commit",
+          "summary": "organic-dash: Linear-only studio (devs.ai build, external org)",
+          "link": "https://github.com/charleslim-ps/ai-studios/commit/57213545efe62073ffbbd8e0f5e92c355d5b9aa1"
         },
         {
           "at": "2026-06-15T04:56:38Z",
@@ -83,21 +125,9 @@
           "type": "commit",
           "summary": "Restore GitHub Pages deploy (public, accepted for this launchpad)",
           "link": "https://github.com/charleslim-ps/ai-studios/commit/d4f456c82e9aa68a7e8ac146825d61751ef1e5ce"
-        },
-        {
-          "at": "2026-06-15T03:53:03Z",
-          "type": "commit",
-          "summary": "Drop public GitHub Pages deploy; host via Cloudflare Access (@partnerstack.com)",
-          "link": "https://github.com/charleslim-ps/ai-studios/commit/3ee6928b900f1641a877ac552f4488475efd14e4"
-        },
-        {
-          "at": "2026-06-15T03:49:08Z",
-          "type": "commit",
-          "summary": "Seed Linear project IDs into manifests",
-          "link": "https://github.com/charleslim-ps/ai-studios/commit/39229c329c7bb513509979ea93f3b1c9804be3dd"
         }
       ],
-      "generatedAt": "2026-06-15T04:59:41.196Z"
+      "generatedAt": "2026-06-15T05:10:36.491Z"
     },
     {
       "id": "aeo-maxxing",
@@ -121,20 +151,63 @@
       "health": "ok",
       "signals": {
         "lastRun": {
-          "status": "unknown",
-          "at": null
+          "status": "success",
+          "at": "2026-06-15T03:35:58Z"
         },
         "deploy": {
           "status": "unknown",
           "at": null
         },
-        "freshnessDays": null,
+        "freshnessDays": 0,
         "expectedCadenceDays": 14
       },
-      "roadmap": [],
-      "todos": [],
-      "activity": [],
-      "generatedAt": "2026-06-15T04:59:41.196Z"
+      "roadmap": [
+        {
+          "title": "AEO Maxxing",
+          "state": "backlog"
+        }
+      ],
+      "todos": [
+        {
+          "title": "Wire Otterly + GSC + GA4 feeds",
+          "state": "backlog",
+          "priority": 2,
+          "link": "https://linear.app/charles-ai/issue/CHA-6/wire-otterly-gsc-ga4-feeds"
+        },
+        {
+          "title": "Build CitationStore adapter (Postgres→BigQuery)",
+          "state": "backlog",
+          "priority": 2,
+          "link": "https://linear.app/charles-ai/issue/CHA-5/build-citationstore-adapter-postgresbigquery"
+        },
+        {
+          "title": "Define topic taxonomy + topics dimension",
+          "state": "backlog",
+          "priority": 3,
+          "link": "https://linear.app/charles-ai/issue/CHA-7/define-topic-taxonomy-topics-dimension"
+        },
+        {
+          "title": "Crawlability layer (Profound Agent Analytics, later)",
+          "state": "backlog",
+          "priority": 4,
+          "link": "https://linear.app/charles-ai/issue/CHA-8/crawlability-layer-profound-agent-analytics-later"
+        }
+      ],
+      "activity": [
+        {
+          "at": "2026-06-15T03:35:58Z",
+          "type": "run",
+          "summary": "pages build and deployment: success",
+          "link": "https://github.com/charleslim-ps/aeo-maxxing/actions/runs/27522407351"
+        },
+        {
+          "at": "2026-06-15T03:20:07Z",
+          "type": "commit",
+          "summary": "Initial commit: AEO Maxxing dashboard + citation spine",
+          "link": "https://github.com/charleslim-ps/aeo-maxxing/commit/9967d1d91892e20ed99d5bdaa7ac8a435861a20d"
+        }
+      ],
+      "generatedAt": "2026-06-15T05:10:36.491Z"
     },
     {
       "id": "glossary-swot",
@@ -169,8 +242,38 @@
         "freshnessDays": 0,
         "expectedCadenceDays": 14
       },
-      "roadmap": [],
-      "todos": [],
+      "roadmap": [
+        {
+          "title": "Glossary SWOT",
+          "state": "backlog"
+        }
+      ],
+      "todos": [
+        {
+          "title": "GSC demand/rank pull",
+          "state": "backlog",
+          "priority": 2,
+          "link": "https://linear.app/charles-ai/issue/CHA-9/gsc-demandrank-pull"
+        },
+        {
+          "title": "Read citation dataset",
+          "state": "backlog",
+          "priority": 3,
+          "link": "https://linear.app/charles-ai/issue/CHA-12/read-citation-dataset"
+        },
+        {
+          "title": "SWOT scoring function",
+          "state": "backlog",
+          "priority": 3,
+          "link": "https://linear.app/charles-ai/issue/CHA-11/swot-scoring-function"
+        },
+        {
+          "title": "Content-health crawl of /glossary (flag dupes)",
+          "state": "backlog",
+          "priority": 3,
+          "link": "https://linear.app/charles-ai/issue/CHA-10/content-health-crawl-of-glossary-flag-dupes"
+        }
+      ],
       "activity": [
         {
           "at": "2026-06-15T02:47:48Z",
@@ -179,7 +282,7 @@
           "link": "https://github.com/charleslim-ps/glossary/commit/11b228d45ecacf52def8efbd2258c3b18426f1ff"
         }
       ],
-      "generatedAt": "2026-06-15T04:59:41.196Z"
+      "generatedAt": "2026-06-15T05:10:36.491Z"
     },
     {
       "id": "citation-partner-overlap",
@@ -201,7 +304,7 @@
         "repo": "charleslim-ps/citation-partner-overlap",
         "linearProjectId": "b44d68d8-0801-466d-810e-28fa0d2b6a11"
       },
-      "health": "ok",
+      "health": "attention",
       "signals": {
         "lastRun": {
           "status": "unknown",
@@ -214,10 +317,40 @@
         "freshnessDays": null,
         "expectedCadenceDays": 14
       },
-      "roadmap": [],
-      "todos": [],
+      "roadmap": [
+        {
+          "title": "Citation × Partner Overlap",
+          "state": "backlog"
+        }
+      ],
+      "todos": [
+        {
+          "title": "Decide enrichment path (Clay vs HubSpot)",
+          "state": "backlog",
+          "priority": 1,
+          "link": "https://linear.app/charles-ai/issue/CHA-13/decide-enrichment-path-clay-vs-hubspot"
+        },
+        {
+          "title": "Build partner_domains",
+          "state": "backlog",
+          "priority": 2,
+          "link": "https://linear.app/charles-ai/issue/CHA-14/build-partner-domains"
+        },
+        {
+          "title": "Ship recruitment-list view",
+          "state": "backlog",
+          "priority": 3,
+          "link": "https://linear.app/charles-ai/issue/CHA-16/ship-recruitment-list-view"
+        },
+        {
+          "title": "Join cited_domain",
+          "state": "backlog",
+          "priority": 3,
+          "link": "https://linear.app/charles-ai/issue/CHA-15/join-cited-domain"
+        }
+      ],
       "activity": [],
-      "generatedAt": "2026-06-15T04:59:41.196Z"
+      "generatedAt": "2026-06-15T05:10:36.491Z"
     },
     {
       "id": "ps-enablement",
@@ -237,7 +370,7 @@
         "repo": "charleslim-ps/ps-enablement",
         "linearProjectId": "72a6b280-3a1b-4e28-bedd-06f1f2eaf24c"
       },
-      "health": "ok",
+      "health": "stale",
       "signals": {
         "lastRun": {
           "status": "unknown",
@@ -247,13 +380,86 @@
           "status": "unknown",
           "at": null
         },
-        "freshnessDays": null,
+        "freshnessDays": 37,
         "expectedCadenceDays": 14
       },
-      "roadmap": [],
-      "todos": [],
-      "activity": [],
-      "generatedAt": "2026-06-15T04:59:41.196Z"
+      "roadmap": [
+        {
+          "title": "PS Enablement",
+          "state": "backlog"
+        }
+      ],
+      "todos": [
+        {
+          "title": "Harden Attention transcript fetch",
+          "state": "backlog",
+          "priority": 2,
+          "link": "https://linear.app/charles-ai/issue/CHA-17/harden-attention-transcript-fetch"
+        },
+        {
+          "title": "Multi-user readiness",
+          "state": "backlog",
+          "priority": 3,
+          "link": "https://linear.app/charles-ai/issue/CHA-18/multi-user-readiness"
+        },
+        {
+          "title": "GH Action digest",
+          "state": "backlog",
+          "priority": 4,
+          "link": "https://linear.app/charles-ai/issue/CHA-19/gh-action-digest"
+        }
+      ],
+      "activity": [
+        {
+          "at": "2026-05-08T22:54:18Z",
+          "type": "commit",
+          "summary": "Repair Haiku JSON malformations + cap stale Attention title-search hits",
+          "link": "https://github.com/charleslim-ps/ps-enablement/commit/60eb7a83a610ef76bb1c54f291b737962c386a24"
+        },
+        {
+          "at": "2026-04-30T01:48:37Z",
+          "type": "commit",
+          "summary": "Alpha cleanup: discovery-only deck + list filter/scoring + new Zap scaffolding",
+          "link": "https://github.com/charleslim-ps/ps-enablement/commit/13830021da85f49b2192399609fbff38d20d6a86"
+        },
+        {
+          "at": "2026-04-26T06:06:21Z",
+          "type": "commit",
+          "summary": "Add precision lever (deck <uuid>, deck list <company>) + TOC rationales + audit-slide IDs",
+          "link": "https://github.com/charleslim-ps/ps-enablement/commit/68f5a48da25e77ab27be29b26b46a7515cbeff6e"
+        },
+        {
+          "at": "2026-04-24T01:59:36Z",
+          "type": "commit",
+          "summary": "Confidence framework: PM classifier, TOC fields, motion-gap analysis",
+          "link": "https://github.com/charleslim-ps/ps-enablement/commit/56877cca5ecba4ae2d3fc91837001fcc3c0492b7"
+        },
+        {
+          "at": "2026-04-24T01:59:19Z",
+          "type": "commit",
+          "summary": "Add audit_template.py + measurement + Attention inspector scripts",
+          "link": "https://github.com/charleslim-ps/ps-enablement/commit/06ea07078c19682c102b42b57a83b28338af324a"
+        },
+        {
+          "at": "2026-04-23T12:14:11Z",
+          "type": "commit",
+          "summary": "Handle plain-text @mention prefix in parse_and_route",
+          "link": "https://github.com/charleslim-ps/ps-enablement/commit/ab3d169ec1c88410e7ece7b06f032fb77e1ff661"
+        },
+        {
+          "at": "2026-04-23T10:50:06Z",
+          "type": "commit",
+          "summary": "Drop title-vs-opp heuristic — align 'deck latest' with 'deck list'[0]",
+          "link": "https://github.com/charleslim-ps/ps-enablement/commit/056bfc952ba43766fb64eda5725cf505d97a48b9"
+        },
+        {
+          "at": "2026-04-23T10:30:59Z",
+          "type": "commit",
+          "summary": "Strip header + footer from deck list JS — let Slack step own prose",
+          "link": "https://github.com/charleslim-ps/ps-enablement/commit/74f23006fe2c0e1c500ded039d0fcbecd39819da"
+        }
+      ],
+      "generatedAt": "2026-06-15T05:10:36.491Z"
     },
     {
       "id": "research-lab",
@@ -273,23 +479,78 @@
         "repo": "charleslim-ps/research-lab",
         "linearProjectId": "815efe1c-3d45-43d1-9023-d738bfded420"
       },
-      "health": "ok",
+      "health": "down",
       "signals": {
         "lastRun": {
-          "status": "unknown",
-          "at": null
+          "status": "failure",
+          "at": "2026-06-15T03:11:07Z"
         },
         "deploy": {
           "status": "unknown",
           "at": null
         },
-        "freshnessDays": null,
+        "freshnessDays": 0,
         "expectedCadenceDays": 14
       },
-      "roadmap": [],
-      "todos": [],
-      "activity": [],
-      "generatedAt": "2026-06-15T04:59:41.196Z"
+      "roadmap": [
+        {
+          "title": "Research Lab",
+          "state": "backlog"
+        }
+      ],
+      "todos": [
+        {
+          "title": "Scheduled Looker composer",
+          "state": "backlog",
+          "priority": 2,
+          "link": "https://linear.app/charles-ai/issue/CHA-21/scheduled-looker-composer"
+        },
+        {
+          "title": "Filterable registry",
+          "state": "backlog",
+          "priority": 3,
+          "link": "https://linear.app/charles-ai/issue/CHA-22/filterable-registry"
+        },
+        {
+          "title": "DataSource adapter (Sheets→Notion)",
+          "state": "backlog",
+          "priority": 3,
+          "link": "https://linear.app/charles-ai/issue/CHA-20/datasource-adapter-sheetsnotion"
+        },
+        {
+          "title": "Webflow publish (separate write flow)",
+          "state": "backlog",
+          "priority": 4,
+          "link": "https://linear.app/charles-ai/issue/CHA-23/webflow-publish-separate-write-flow"
+        }
+      ],
+      "activity": [
+        {
+          "at": "2026-06-15T03:11:07Z",
+          "type": "run",
+          "summary": "Deploy app to GitHub Pages: failure",
+          "link": "https://github.com/charleslim-ps/research-lab/actions/runs/27521683251"
+        },
+        {
+          "at": "2026-06-15T03:10:39Z",
+          "type": "commit",
+          "summary": "Add GitHub Pages deploy workflow + relative asset base",
+          "link": "https://github.com/charleslim-ps/research-lab/commit/de54bea3a5bf6ddc1adb0042dc93f4878b874749"
+        },
+        {
+          "at": "2026-06-15T02:47:07Z",
+          "type": "commit",
+          "summary": "Wire registry Sheet id into config.json",
+          "link": "https://github.com/charleslim-ps/research-lab/commit/ece0c62010188e709bbda23f7fed83b8798a0177"
+        },
+        {
+          "at": "2026-06-15T02:30:55Z",
+          "type": "commit",
+          "summary": "Scaffold Research Lab chart registry + production queue (v1)",
+          "link": "https://github.com/charleslim-ps/research-lab/commit/a976d289a589158652e0878f7bc62ca53415d27f"
+        }
+      ],
+      "generatedAt": "2026-06-15T05:10:36.491Z"
     },
     {
       "id": "organic-dash",
@@ -320,10 +581,40 @@
         "freshnessDays": null,
         "expectedCadenceDays": 14
       },
-      "roadmap": [],
-      "todos": [],
+      "roadmap": [
+        {
+          "title": "Organic-dash",
+          "state": "backlog"
+        }
+      ],
+      "todos": [
+        {
+          "title": "Live-data composer (HubSpot/SF/GA4/GSC)",
+          "state": "backlog",
+          "priority": 2,
+          "link": "https://linear.app/charles-ai/issue/CHA-25/live-data-composer-hubspotsfga4gsc"
+        },
+        {
+          "title": "Populate dataSources.ts",
+          "state": "backlog",
+          "priority": 2,
+          "link": "https://linear.app/charles-ai/issue/CHA-24/populate-datasourcests"
+        },
+        {
+          "title": "The 7 build suggestions",
+          "state": "backlog",
+          "priority": 3,
+          "link": "https://linear.app/charles-ai/issue/CHA-26/the-7-build-suggestions"
+        },
+        {
+          "title": "Methodology token polish",
+          "state": "backlog",
+          "priority": 4,
+          "link": "https://linear.app/charles-ai/issue/CHA-27/methodology-token-polish"
+        }
+      ],
       "activity": [],
-      "generatedAt": "2026-06-15T04:59:41.196Z"
+      "generatedAt": "2026-06-15T05:10:36.491Z"
     },
     {
       "id": "ad-studio",
@@ -350,7 +641,7 @@
       "roadmap": [],
       "todos": [],
       "activity": [],
-      "generatedAt": "2026-06-15T04:59:41.196Z"
+      "generatedAt": "2026-06-15T05:10:36.491Z"
     }
   ]
 }
