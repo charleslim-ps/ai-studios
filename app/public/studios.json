@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T05:10:36.491Z",
+  "generatedAt": "2026-06-15T12:10:28.907Z",
   "studios": [
     {
       "id": "hq",
@@ -24,11 +24,11 @@
       "signals": {
         "lastRun": {
           "status": "in_progress",
-          "at": "2026-06-15T05:10:29Z"
+          "at": "2026-06-15T12:10:23Z"
         },
         "deploy": {
           "status": "success",
-          "at": "2026-06-15T05:02:15Z"
+          "at": "2026-06-15T05:20:07Z"
         },
         "freshnessDays": 0,
         "expectedCadenceDays": 14
@@ -67,22 +67,40 @@
       ],
       "activity": [
         {
-          "at": "2026-06-15T05:10:29Z",
+          "at": "2026-06-15T12:10:23Z",
           "type": "run",
           "summary": "Refresh studios.json: in_progress",
-          "link": "https://github.com/charleslim-ps/ai-studios/actions/runs/27525395764"
+          "link": "https://github.com/charleslim-ps/ai-studios/actions/runs/27545257336"
         },
         {
-          "at": "2026-06-15T05:02:25Z",
+          "at": "2026-06-15T05:20:15Z",
           "type": "run",
           "summary": "Deploy to GitHub Pages: success",
-          "link": "https://github.com/charleslim-ps/ai-studios/actions/runs/27525110936"
+          "link": "https://github.com/charleslim-ps/ai-studios/actions/runs/27525720114"
         },
         {
-          "at": "2026-06-15T05:02:08Z",
+          "at": "2026-06-15T05:19:58Z",
           "type": "run",
           "summary": "Validate: success",
-          "link": "https://github.com/charleslim-ps/ai-studios/actions/runs/27525110951"
+          "link": "https://github.com/charleslim-ps/ai-studios/actions/runs/27525720109"
+        },
+        {
+          "at": "2026-06-15T05:19:33Z",
+          "type": "commit",
+          "summary": "Fix HQ launch link → real Cloudflare Pages URL (charleslim-ai.pages.dev)",
+          "link": "https://github.com/charleslim-ps/ai-studios/commit/2d1eebd723546c145b6b9b4e1e2fa385572e558b"
+        },
+        {
+          "at": "2026-06-15T05:17:43Z",
+          "type": "commit",
+          "summary": "Auto-deploy fresh data: drop [skip ci] from the refresh commit",
+          "link": "https://github.com/charleslim-ps/ai-studios/commit/81edeeb2b62cd103f3f8a4d0a649bcf768ac7284"
+        },
+        {
+          "at": "2026-06-15T05:10:37Z",
+          "type": "commit",
+          "summary": "chore: refresh studios.json [skip ci]",
+          "link": "https://github.com/charleslim-ps/ai-studios/commit/bd95e8c96395f391e0879d8abe1199e09188c223"
         },
         {
           "at": "2026-06-15T05:01:47Z",
@@ -107,27 +125,9 @@
           "type": "commit",
           "summary": "Reconcile AI-vis Dashboard → AEO Maxxing (real project)",
           "link": "https://github.com/charleslim-ps/ai-studios/commit/f90c9f3cb7335afd40ba48cd4d9f091c773b854d"
-        },
-        {
-          "at": "2026-06-15T04:42:14Z",
-          "type": "commit",
-          "summary": "Remove wrangler.jsonc — hosting via Cloudflare Pages, not a Worker",
-          "link": "https://github.com/charleslim-ps/ai-studios/commit/51355b180213979e2cbd640e20d92a2c7cab3f4b"
-        },
-        {
-          "at": "2026-06-15T04:30:20Z",
-          "type": "commit",
-          "summary": "Add wrangler.jsonc for Cloudflare Workers static-assets deploy",
-          "link": "https://github.com/charleslim-ps/ai-studios/commit/6bf1b6fbeb402a860cc781d338aa1d749fef56e8"
-        },
-        {
-          "at": "2026-06-15T03:58:06Z",
-          "type": "commit",
-          "summary": "Restore GitHub Pages deploy (public, accepted for this launchpad)",
-          "link": "https://github.com/charleslim-ps/ai-studios/commit/d4f456c82e9aa68a7e8ac146825d61751ef1e5ce"
         }
       ],
-      "generatedAt": "2026-06-15T05:10:36.491Z"
+      "generatedAt": "2026-06-15T12:10:28.907Z"
     },
     {
       "id": "aeo-maxxing",
@@ -207,7 +207,7 @@
           "link": "https://github.com/charleslim-ps/aeo-maxxing/commit/9967d1d91892e20ed99d5bdaa7ac8a435861a20d"
         }
       ],
-      "generatedAt": "2026-06-15T05:10:36.491Z"
+      "generatedAt": "2026-06-15T12:10:28.907Z"
     },
     {
       "id": "glossary-swot",
@@ -282,7 +282,7 @@
           "link": "https://github.com/charleslim-ps/glossary/commit/11b228d45ecacf52def8efbd2258c3b18426f1ff"
         }
       ],
-      "generatedAt": "2026-06-15T05:10:36.491Z"
+      "generatedAt": "2026-06-15T12:10:28.907Z"
     },
     {
       "id": "citation-partner-overlap",
@@ -350,7 +350,7 @@
         }
       ],
       "activity": [],
-      "generatedAt": "2026-06-15T05:10:36.491Z"
+      "generatedAt": "2026-06-15T12:10:28.907Z"
     },
     {
       "id": "ps-enablement",
@@ -459,7 +459,7 @@
           "link": "https://github.com/charleslim-ps/ps-enablement/commit/74f23006fe2c0e1c500ded039d0fcbecd39819da"
         }
       ],
-      "generatedAt": "2026-06-15T05:10:36.491Z"
+      "generatedAt": "2026-06-15T12:10:28.907Z"
     },
     {
       "id": "research-lab",
@@ -550,7 +550,7 @@
           "link": "https://github.com/charleslim-ps/research-lab/commit/a976d289a589158652e0878f7bc62ca53415d27f"
         }
       ],
-      "generatedAt": "2026-06-15T05:10:36.491Z"
+      "generatedAt": "2026-06-15T12:10:28.907Z"
     },
     {
       "id": "organic-dash",
@@ -614,7 +614,7 @@
         }
       ],
       "activity": [],
-      "generatedAt": "2026-06-15T05:10:36.491Z"
+      "generatedAt": "2026-06-15T12:10:28.907Z"
     },
     {
       "id": "ad-studio",
@@ -641,7 +641,7 @@
       "roadmap": [],
       "todos": [],
       "activity": [],
-      "generatedAt": "2026-06-15T05:10:36.491Z"
+      "generatedAt": "2026-06-15T12:10:28.907Z"
     }
   ]
 }
