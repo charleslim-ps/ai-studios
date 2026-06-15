@@ -7,7 +7,7 @@
   "tier": 1,
   "slot": 2,
   "studioAsset": "marketplace.png",
-  "depends_on": ["ai-vis-dashboard"],
+  "depends_on": ["aeo-maxxing"],
   "links": {
     "repo": "https://github.com/charleslim-ps/marketplace-overlap",
     "project": "https://linear.app/charles-ai/project/marketplace-overlap-666c955e34c5"

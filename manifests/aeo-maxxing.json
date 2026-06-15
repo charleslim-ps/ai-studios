@@ -1,0 +1,20 @@
+{
+  "id": "aeo-maxxing",
+  "name": "AEO Maxxing",
+  "purpose": "Internal AI-search visibility dashboard plus the shared citation spine that aggregates multiple AI-citation feeds into one canonical dataset for PartnerStack.",
+  "stage": "alpha",
+  "district": "AEO",
+  "tier": 1,
+  "slot": 0,
+  "studioAsset": "aeo-maxxing.png",
+  "depends_on": [],
+  "links": {
+    "launch": "https://aeo-maxxing.pages.dev",
+    "repo": "https://github.com/charleslim-ps/aeo-maxxing",
+    "project": "https://linear.app/charles-ai/project/aeo-maxxing-ff6b3596bbba"
+  },
+  "sources": {
+    "repo": "charleslim-ps/aeo-maxxing",
+    "linearProjectId": "542624fd-ea7a-473f-83a0-ab4b4c694f5c"
+  }
+}

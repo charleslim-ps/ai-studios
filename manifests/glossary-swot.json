@@ -7,7 +7,7 @@
   "tier": 1,
   "slot": 1,
   "studioAsset": "glossary.png",
-  "depends_on": ["ai-vis-dashboard"],
+  "depends_on": ["aeo-maxxing"],
   "links": {
     "repo": "https://github.com/charleslim-ps/glossary-swot",
     "project": "https://linear.app/charles-ai/project/glossary-swot-be67a6d38cb9"

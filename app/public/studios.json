@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T03:47:40.667Z",
+  "generatedAt": "2026-06-15T04:52:51.795Z",
   "studios": [
     {
       "id": "hq",
@@ -23,12 +23,12 @@
       "health": "ok",
       "signals": {
         "lastRun": {
-          "status": "failure",
-          "at": "2026-06-15T03:38:38Z"
+          "status": "success",
+          "at": "2026-06-15T04:42:39Z"
         },
         "deploy": {
-          "status": "unknown",
-          "at": null
+          "status": "success",
+          "at": "2026-06-15T04:42:50Z"
         },
         "freshnessDays": 0,
         "expectedCadenceDays": 14
@@ -37,16 +37,52 @@
       "todos": [],
       "activity": [
         {
-          "at": "2026-06-15T03:38:43Z",
+          "at": "2026-06-15T04:43:08Z",
           "type": "run",
-          "summary": "Validate: success",
-          "link": "https://github.com/charleslim-ps/ai-studios/actions/runs/27522502862"
+          "summary": "pages build and deployment: success",
+          "link": "https://github.com/charleslim-ps/ai-studios/actions/runs/27524502253"
         },
         {
-          "at": "2026-06-15T03:38:38Z",
+          "at": "2026-06-15T04:42:54Z",
           "type": "run",
-          "summary": "Deploy to GitHub Pages: failure",
-          "link": "https://github.com/charleslim-ps/ai-studios/actions/runs/27522502883"
+          "summary": "Deploy to GitHub Pages: success",
+          "link": "https://github.com/charleslim-ps/ai-studios/actions/runs/27524502718"
+        },
+        {
+          "at": "2026-06-15T04:42:39Z",
+          "type": "run",
+          "summary": "Validate: success",
+          "link": "https://github.com/charleslim-ps/ai-studios/actions/runs/27524502729"
+        },
+        {
+          "at": "2026-06-15T04:42:14Z",
+          "type": "commit",
+          "summary": "Remove wrangler.jsonc — hosting via Cloudflare Pages, not a Worker",
+          "link": "https://github.com/charleslim-ps/ai-studios/commit/51355b180213979e2cbd640e20d92a2c7cab3f4b"
+        },
+        {
+          "at": "2026-06-15T04:30:20Z",
+          "type": "commit",
+          "summary": "Add wrangler.jsonc for Cloudflare Workers static-assets deploy",
+          "link": "https://github.com/charleslim-ps/ai-studios/commit/6bf1b6fbeb402a860cc781d338aa1d749fef56e8"
+        },
+        {
+          "at": "2026-06-15T03:58:06Z",
+          "type": "commit",
+          "summary": "Restore GitHub Pages deploy (public, accepted for this launchpad)",
+          "link": "https://github.com/charleslim-ps/ai-studios/commit/d4f456c82e9aa68a7e8ac146825d61751ef1e5ce"
+        },
+        {
+          "at": "2026-06-15T03:53:03Z",
+          "type": "commit",
+          "summary": "Drop public GitHub Pages deploy; host via Cloudflare Access (@partnerstack.com)",
+          "link": "https://github.com/charleslim-ps/ai-studios/commit/3ee6928b900f1641a877ac552f4488475efd14e4"
+        },
+        {
+          "at": "2026-06-15T03:49:08Z",
+          "type": "commit",
+          "summary": "Seed Linear project IDs into manifests",
+          "link": "https://github.com/charleslim-ps/ai-studios/commit/39229c329c7bb513509979ea93f3b1c9804be3dd"
         },
         {
           "at": "2026-06-15T03:38:14Z",
@@ -55,24 +91,25 @@
           "link": "https://github.com/charleslim-ps/ai-studios/commit/ebdf917cad49172a2ae66eff8f0f9caef02c53c6"
         }
       ],
-      "generatedAt": "2026-06-15T03:47:40.667Z"
+      "generatedAt": "2026-06-15T04:52:51.795Z"
     },
     {
-      "id": "ai-vis-dashboard",
-      "name": "AI-vis Dashboard",
-      "purpose": "The citation spine — server room with tubes + radar. Tracks where the brand is cited across answer engines (Otterly, GSC, GA4) on a topic taxonomy.",
+      "id": "aeo-maxxing",
+      "name": "AEO Maxxing",
+      "purpose": "Internal AI-search visibility dashboard plus the shared citation spine that aggregates multiple AI-citation feeds into one canonical dataset for PartnerStack.",
       "stage": "alpha",
       "district": "AEO",
       "tier": 1,
       "slot": 0,
-      "studioAsset": "ai-vis.png",
+      "studioAsset": "aeo-maxxing.png",
       "depends_on": [],
       "links": {
-        "repo": "https://github.com/charleslim-ps/ai-vis",
-        "project": "https://linear.app/charles-ai/project/ai-vis-dashboard-ff6b3596bbba"
+        "launch": "https://aeo-maxxing.pages.dev",
+        "repo": "https://github.com/charleslim-ps/aeo-maxxing",
+        "project": "https://linear.app/charles-ai/project/aeo-maxxing-ff6b3596bbba"
       },
       "sources": {
-        "repo": "charleslim-ps/ai-vis",
+        "repo": "charleslim-ps/aeo-maxxing",
         "linearProjectId": "542624fd-ea7a-473f-83a0-ab4b4c694f5c"
       },
       "health": "ok",
@@ -91,7 +128,7 @@
       "roadmap": [],
       "todos": [],
       "activity": [],
-      "generatedAt": "2026-06-15T03:47:40.667Z"
+      "generatedAt": "2026-06-15T04:52:51.795Z"
     },
     {
       "id": "glossary-swot",
@@ -103,7 +140,7 @@
       "slot": 1,
       "studioAsset": "glossary.png",
       "depends_on": [
-        "ai-vis-dashboard"
+        "aeo-maxxing"
       ],
       "links": {
         "repo": "https://github.com/charleslim-ps/glossary-swot",
@@ -129,7 +166,7 @@
       "roadmap": [],
       "todos": [],
       "activity": [],
-      "generatedAt": "2026-06-15T03:47:40.667Z"
+      "generatedAt": "2026-06-15T04:52:51.795Z"
     },
     {
       "id": "marketplace-overlap",
@@ -141,7 +178,7 @@
       "slot": 2,
       "studioAsset": "marketplace.png",
       "depends_on": [
-        "ai-vis-dashboard"
+        "aeo-maxxing"
       ],
       "links": {
         "repo": "https://github.com/charleslim-ps/marketplace-overlap",
@@ -167,7 +204,7 @@
       "roadmap": [],
       "todos": [],
       "activity": [],
-      "generatedAt": "2026-06-15T03:47:40.667Z"
+      "generatedAt": "2026-06-15T04:52:51.795Z"
     },
     {
       "id": "ps-enablement",
@@ -203,7 +240,7 @@
       "roadmap": [],
       "todos": [],
       "activity": [],
-      "generatedAt": "2026-06-15T03:47:40.667Z"
+      "generatedAt": "2026-06-15T04:52:51.795Z"
     },
     {
       "id": "research-lab",
@@ -239,7 +276,7 @@
       "roadmap": [],
       "todos": [],
       "activity": [],
-      "generatedAt": "2026-06-15T03:47:40.667Z"
+      "generatedAt": "2026-06-15T04:52:51.795Z"
     },
     {
       "id": "organic-dash",
@@ -275,7 +312,7 @@
       "roadmap": [],
       "todos": [],
       "activity": [],
-      "generatedAt": "2026-06-15T03:47:40.667Z"
+      "generatedAt": "2026-06-15T04:52:51.795Z"
     },
     {
       "id": "ad-studio",
@@ -302,7 +339,7 @@
       "roadmap": [],
       "todos": [],
       "activity": [],
-      "generatedAt": "2026-06-15T03:47:40.667Z"
+      "generatedAt": "2026-06-15T04:52:51.795Z"
     }
   ]
 }
