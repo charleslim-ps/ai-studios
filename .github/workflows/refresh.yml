@@ -41,7 +41,7 @@ jobs:
           git config user.email "studios-bot@users.noreply.github.com"
           if ! git diff --quiet -- app/public/studios.json; then
             git add app/public/studios.json
-            git commit -m "chore: refresh studios.json [skip ci]"
+            git commit -m "chore: refresh studios.json"
             git push
           else
             echo "No changes to studios.json"

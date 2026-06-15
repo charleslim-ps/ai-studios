@@ -4,18 +4,13 @@ name: Deploy to GitHub Pages
 # NOTE: GitHub Pages is PUBLIC — studios.json is world-readable. That's an
 # accepted tradeoff for THIS launchpad; studios whose data is sensitive should
 # host privately (Cloudflare Pages + Access) instead. See README → Hosting.
-# Triggers:
-#   - push to main        → redeploy on any code change
-#   - schedule (06:15 UTC) → 15 min after refresh.yml writes fresh studios.json,
-#                            so the daily composer data actually reaches the page
-#                            (refresh.yml commits with [skip ci], so it can't
-#                            trigger this workflow itself)
-#   - workflow_dispatch   → manual deploy from the Actions tab
+# Triggers on every push to main — INCLUDING the daily refresh.yml commits of
+# studios.json — so fresh composer data reaches the page automatically. The
+# refresh commit no longer uses [skip ci]; deploy.yml never commits, so there's
+# no loop. Plus manual dispatch.
 on:
   push:
     branches: [main]
-  schedule:
-    - cron: "15 6 * * *"
   workflow_dispatch: {}
 
 # Least-privilege perms required by the Pages deploy actions.
