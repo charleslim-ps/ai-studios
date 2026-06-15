@@ -1,0 +1,17 @@
+{
+  "id": "ps-enablement",
+  "name": "PS Enablement",
+  "purpose": "Generates branded discovery slide decks from Attention call transcripts, triggered from Slack. Runtime in Zapier; this repo is the source-of-truth backup.",
+  "stage": "alpha",
+  "district": "Enablement",
+  "tier": 2,
+  "slot": 0,
+  "studioAsset": "ps-enablement.png",
+  "depends_on": [],
+  "links": {
+    "repo": "https://github.com/charleslim-ps/ps-enablement"
+  },
+  "sources": {
+    "repo": "charleslim-ps/ps-enablement"
+  }
+}

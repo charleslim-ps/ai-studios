@@ -1,0 +1,17 @@
+{
+  "id": "research-lab",
+  "name": "Research Lab",
+  "purpose": "Science lab. A filterable registry of research charts; scheduled Looker composer pulls live numbers and publishes to Webflow.",
+  "stage": "beta",
+  "district": "Research",
+  "tier": 3,
+  "slot": 0,
+  "studioAsset": "research-lab.png",
+  "depends_on": [],
+  "links": {
+    "repo": "https://github.com/charleslim-ps/research-lab-registry"
+  },
+  "sources": {
+    "repo": "charleslim-ps/research-lab-registry"
+  }
+}

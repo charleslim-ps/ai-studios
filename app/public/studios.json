@@ -1,0 +1,275 @@
+{
+  "generatedAt": "2026-06-15T03:15:32.943Z",
+  "studios": [
+    {
+      "id": "hq",
+      "name": "Charles AI Studios HQ",
+      "purpose": "The launchpad itself — the cake topper. Rolls up the health of every studio and is the front door to the lot.",
+      "stage": "alpha",
+      "district": "HQ",
+      "tier": 0,
+      "slot": 0,
+      "studioAsset": "hq.png",
+      "depends_on": [],
+      "links": {
+        "repo": "https://github.com/charleslim-ps/ai-studios",
+        "launch": "https://ai-studios.pages.dev"
+      },
+      "sources": {
+        "repo": "charleslim-ps/ai-studios"
+      },
+      "health": "ok",
+      "signals": {
+        "lastRun": {
+          "status": "unknown",
+          "at": null
+        },
+        "deploy": {
+          "status": "unknown",
+          "at": null
+        },
+        "freshnessDays": null,
+        "expectedCadenceDays": 14
+      },
+      "roadmap": [],
+      "todos": [],
+      "activity": [],
+      "generatedAt": "2026-06-15T03:15:32.943Z"
+    },
+    {
+      "id": "ai-vis-dashboard",
+      "name": "AI-vis Dashboard",
+      "purpose": "The citation spine — server room with tubes + radar. Tracks where the brand is cited across answer engines (Otterly, GSC, GA4) on a topic taxonomy.",
+      "stage": "alpha",
+      "district": "AEO",
+      "tier": 1,
+      "slot": 0,
+      "studioAsset": "ai-vis.png",
+      "depends_on": [],
+      "links": {
+        "repo": "https://github.com/charleslim-ps/ai-vis"
+      },
+      "sources": {
+        "repo": "charleslim-ps/ai-vis"
+      },
+      "health": "ok",
+      "signals": {
+        "lastRun": {
+          "status": "unknown",
+          "at": null
+        },
+        "deploy": {
+          "status": "unknown",
+          "at": null
+        },
+        "freshnessDays": null,
+        "expectedCadenceDays": 14
+      },
+      "roadmap": [],
+      "todos": [],
+      "activity": [],
+      "generatedAt": "2026-06-15T03:15:32.943Z"
+    },
+    {
+      "id": "glossary-swot",
+      "name": "Glossary SWOT",
+      "purpose": "Hall of card catalogs. Scores /glossary pages on demand/rank + content health, reading the citation dataset to find SWOT opportunities.",
+      "stage": "alpha",
+      "district": "AEO",
+      "tier": 1,
+      "slot": 1,
+      "studioAsset": "glossary.png",
+      "depends_on": [
+        "ai-vis-dashboard"
+      ],
+      "links": {
+        "repo": "https://github.com/charleslim-ps/glossary-swot"
+      },
+      "sources": {
+        "repo": "charleslim-ps/glossary-swot"
+      },
+      "health": "ok",
+      "signals": {
+        "lastRun": {
+          "status": "unknown",
+          "at": null
+        },
+        "deploy": {
+          "status": "unknown",
+          "at": null
+        },
+        "freshnessDays": null,
+        "expectedCadenceDays": 14
+      },
+      "roadmap": [],
+      "todos": [],
+      "activity": [],
+      "generatedAt": "2026-06-15T03:15:32.943Z"
+    },
+    {
+      "id": "marketplace-overlap",
+      "name": "Marketplace Overlap",
+      "purpose": "Matchmaking switchboard. Joins partner domains against cited domains to ship a recruitment list of high-overlap partners.",
+      "stage": "alpha",
+      "district": "AEO",
+      "tier": 1,
+      "slot": 2,
+      "studioAsset": "marketplace.png",
+      "depends_on": [
+        "ai-vis-dashboard"
+      ],
+      "links": {
+        "repo": "https://github.com/charleslim-ps/marketplace-overlap"
+      },
+      "sources": {
+        "repo": "charleslim-ps/marketplace-overlap"
+      },
+      "health": "ok",
+      "signals": {
+        "lastRun": {
+          "status": "unknown",
+          "at": null
+        },
+        "deploy": {
+          "status": "unknown",
+          "at": null
+        },
+        "freshnessDays": null,
+        "expectedCadenceDays": 14
+      },
+      "roadmap": [],
+      "todos": [],
+      "activity": [],
+      "generatedAt": "2026-06-15T03:15:32.943Z"
+    },
+    {
+      "id": "ps-enablement",
+      "name": "PS Enablement",
+      "purpose": "Generates branded discovery slide decks from Attention call transcripts, triggered from Slack. Runtime in Zapier; this repo is the source-of-truth backup.",
+      "stage": "alpha",
+      "district": "Enablement",
+      "tier": 2,
+      "slot": 0,
+      "studioAsset": "ps-enablement.png",
+      "depends_on": [],
+      "links": {
+        "repo": "https://github.com/charleslim-ps/ps-enablement"
+      },
+      "sources": {
+        "repo": "charleslim-ps/ps-enablement"
+      },
+      "health": "ok",
+      "signals": {
+        "lastRun": {
+          "status": "unknown",
+          "at": null
+        },
+        "deploy": {
+          "status": "unknown",
+          "at": null
+        },
+        "freshnessDays": null,
+        "expectedCadenceDays": 14
+      },
+      "roadmap": [],
+      "todos": [],
+      "activity": [],
+      "generatedAt": "2026-06-15T03:15:32.943Z"
+    },
+    {
+      "id": "research-lab",
+      "name": "Research Lab",
+      "purpose": "Science lab. A filterable registry of research charts; scheduled Looker composer pulls live numbers and publishes to Webflow.",
+      "stage": "beta",
+      "district": "Research",
+      "tier": 3,
+      "slot": 0,
+      "studioAsset": "research-lab.png",
+      "depends_on": [],
+      "links": {
+        "repo": "https://github.com/charleslim-ps/research-lab-registry"
+      },
+      "sources": {
+        "repo": "charleslim-ps/research-lab-registry"
+      },
+      "health": "ok",
+      "signals": {
+        "lastRun": {
+          "status": "unknown",
+          "at": null
+        },
+        "deploy": {
+          "status": "unknown",
+          "at": null
+        },
+        "freshnessDays": null,
+        "expectedCadenceDays": 14
+      },
+      "roadmap": [],
+      "todos": [],
+      "activity": [],
+      "generatedAt": "2026-06-15T03:15:32.943Z"
+    },
+    {
+      "id": "organic-dash",
+      "name": "Organic-dash",
+      "purpose": "Control room with dials + funnel. Live-data composer (HubSpot/SF/GA4/GSC) for organic attribution, with methodology tokens.",
+      "stage": "alpha",
+      "district": "Attribution",
+      "tier": 4,
+      "slot": 0,
+      "studioAsset": "organic-dash.png",
+      "depends_on": [],
+      "links": {
+        "repo": "https://github.com/charleslim-ps/organic-dash"
+      },
+      "sources": {
+        "repo": "charleslim-ps/organic-dash"
+      },
+      "health": "ok",
+      "signals": {
+        "lastRun": {
+          "status": "unknown",
+          "at": null
+        },
+        "deploy": {
+          "status": "unknown",
+          "at": null
+        },
+        "freshnessDays": null,
+        "expectedCadenceDays": 14
+      },
+      "roadmap": [],
+      "todos": [],
+      "activity": [],
+      "generatedAt": "2026-06-15T03:15:32.943Z"
+    },
+    {
+      "id": "ad-studio",
+      "name": "Ad Studio",
+      "purpose": "COMING SOON — takes our most performant ads in HubSpot and replicates them with different styling in Figma.",
+      "stage": "coming-soon",
+      "district": "Attribution",
+      "tier": 4,
+      "slot": 1,
+      "studioAsset": "coming-soon.png",
+      "health": "coming-soon",
+      "signals": {
+        "lastRun": {
+          "status": "unknown",
+          "at": null
+        },
+        "deploy": {
+          "status": "unknown",
+          "at": null
+        },
+        "freshnessDays": null,
+        "expectedCadenceDays": 14
+      },
+      "roadmap": [],
+      "todos": [],
+      "activity": [],
+      "generatedAt": "2026-06-15T03:15:32.943Z"
+    }
+  ]
+}

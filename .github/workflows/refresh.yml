@@ -1,0 +1,48 @@
+name: Refresh studios.json
+
+# Cadence: this cron must stay in sync with config.json "cadence" (the human-readable
+# single source of truth). Daily at 06:00 UTC. To change the schedule, update BOTH.
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch: {} # manual run from the Actions tab
+
+permissions:
+  contents: write # so the composer's studios.json commit can be pushed back
+
+concurrency:
+  group: refresh-studios
+  cancel-in-progress: true
+
+jobs:
+  compose:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install composer deps
+        working-directory: composer
+        run: npm ci
+
+      - name: Compose studios.json
+        working-directory: composer
+        env:
+          LINEAR_API_KEY: ${{ secrets.LINEAR_API_KEY }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: npm run compose
+
+      - name: Commit studios.json if changed
+        run: |
+          git config user.name "studios-bot"
+          git config user.email "studios-bot@users.noreply.github.com"
+          if ! git diff --quiet -- app/public/studios.json; then
+            git add app/public/studios.json
+            git commit -m "chore: refresh studios.json [skip ci]"
+            git push
+          else
+            echo "No changes to studios.json"
+          fi

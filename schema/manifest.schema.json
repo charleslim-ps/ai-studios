@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://ai-studios.charleslim-ps/manifest.schema.json",
+  "title": "Studio manifest",
+  "description": "Human-authored, one per studio. The machine-generated status layer is merged on top by the composer.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "purpose", "stage", "district", "tier", "slot"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "name": { "type": "string", "minLength": 1 },
+    "purpose": { "type": "string", "minLength": 1 },
+    "stage": { "enum": ["alpha", "beta", "live", "coming-soon"] },
+    "district": { "enum": ["AEO", "Enablement", "Research", "Attribution", "HQ"] },
+    "tier": { "type": "integer", "minimum": 0 },
+    "slot": { "type": "integer", "minimum": 0 },
+    "studioAsset": { "type": "string" },
+    "depends_on": { "type": "array", "items": { "type": "string" } },
+    "links": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "launch": { "type": "string" },
+        "repo": { "type": "string" },
+        "project": { "type": "string" },
+        "dashboard": { "type": "string" },
+        "figma": { "type": "string" }
+      }
+    },
+    "sources": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "linearProjectId": { "type": "string" },
+        "repo": { "type": "string" }
+      }
+    }
+  },
+  "comment": "A real (non-coming-soon) studio must declare where its live data comes from.",
+  "if": {
+    "properties": { "stage": { "const": "coming-soon" } }
+  },
+  "then": true,
+  "else": {
+    "required": ["sources"],
+    "properties": {
+      "sources": { "required": ["repo"] }
+    }
+  }
+}

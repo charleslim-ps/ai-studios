@@ -1,0 +1,18 @@
+{
+  "id": "hq",
+  "name": "Charles AI Studios HQ",
+  "purpose": "The launchpad itself — the cake topper. Rolls up the health of every studio and is the front door to the lot.",
+  "stage": "alpha",
+  "district": "HQ",
+  "tier": 0,
+  "slot": 0,
+  "studioAsset": "hq.png",
+  "depends_on": [],
+  "links": {
+    "repo": "https://github.com/charleslim-ps/ai-studios",
+    "launch": "https://ai-studios.pages.dev"
+  },
+  "sources": {
+    "repo": "charleslim-ps/ai-studios"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ai-vis-dashboard",
+  "name": "AI-vis Dashboard",
+  "purpose": "The citation spine — server room with tubes + radar. Tracks where the brand is cited across answer engines (Otterly, GSC, GA4) on a topic taxonomy.",
+  "stage": "alpha",
+  "district": "AEO",
+  "tier": 1,
+  "slot": 0,
+  "studioAsset": "ai-vis.png",
+  "depends_on": [],
+  "links": {
+    "repo": "https://github.com/charleslim-ps/ai-vis"
+  },
+  "sources": {
+    "repo": "charleslim-ps/ai-vis"
+  }
+}

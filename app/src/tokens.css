@@ -1,0 +1,46 @@
+/* Design tokens — Charles AI Studios (the Cake Tower).
+   Soft flat-iso aesthetic: warm paper ground, ink text, pastel cake-layer tiers,
+   muted semantic status colors. Editorial base shared with research-lab-registry. */
+
+:root {
+  /* Type */
+  --font-display: "Fraunces", Georgia, serif;
+  --font-sans: "IBM Plex Sans", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  /* Ground & ink */
+  --paper: #f6f2e9;
+  --paper-raised: #fffdf8;
+  --ink: #211c16;
+  --ink-soft: #6f6555;
+  --line: #e4ddcd;
+  --line-strong: #d4cab4;
+
+  --accent: #b4451f;
+  --accent-soft: #f0d9cd;
+
+  /* Cake-layer tiers, one soft hue per district (front / top-frosting / side). */
+  --hq-face: #fbe6c9;        --hq-top: #fff6e2;        --hq-side: #ecd2a0;
+  --aeo-face: #f7d6dd;       --aeo-top: #ffe9ee;       --aeo-side: #e3aab6;
+  --enablement-face: #d9ecd2;--enablement-top: #ecf7e6;--enablement-side: #adcfa0;
+  --research-face: #d4e2f2;  --research-top: #e8f0fb;  --research-side: #a8bedd;
+  --attribution-face: #f6e2c4;--attribution-top: #fcefda;--attribution-side: #e0bf8f;
+
+  /* Room interior + furniture ink */
+  --room-floor: rgba(33, 28, 22, 0.10);
+  --room-prop: rgba(33, 28, 22, 0.28);
+
+  /* Status (health) */
+  --ok: #3a6b43;       --ok-bg: #e3ece1;
+  --working: #2f6db0;  --working-bg: #d8e7f5;
+  --attention: #946217;--attention-bg: #f5e7cb;
+  --stale: #6f6555;    --stale-bg: #eae3d4;
+  --down: #a23a28;     --down-bg: #f1dcd6;
+  --soon: #8c8275;     --soon-bg: #ece6da;
+
+  /* Geometry */
+  --radius: 8px;
+  --radius-pill: 999px;
+  --shadow: 0 1px 2px rgba(33, 28, 22, 0.06), 0 10px 30px -18px rgba(33, 28, 22, 0.35);
+  --shadow-room: 0 6px 16px -10px rgba(33, 28, 22, 0.45);
+}

@@ -1,0 +1,17 @@
+{
+  "id": "organic-dash",
+  "name": "Organic-dash",
+  "purpose": "Control room with dials + funnel. Live-data composer (HubSpot/SF/GA4/GSC) for organic attribution, with methodology tokens.",
+  "stage": "alpha",
+  "district": "Attribution",
+  "tier": 4,
+  "slot": 0,
+  "studioAsset": "organic-dash.png",
+  "depends_on": [],
+  "links": {
+    "repo": "https://github.com/charleslim-ps/organic-dash"
+  },
+  "sources": {
+    "repo": "charleslim-ps/organic-dash"
+  }
+}

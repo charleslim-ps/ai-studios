@@ -1,0 +1,17 @@
+{
+  "id": "glossary-swot",
+  "name": "Glossary SWOT",
+  "purpose": "Hall of card catalogs. Scores /glossary pages on demand/rank + content health, reading the citation dataset to find SWOT opportunities.",
+  "stage": "alpha",
+  "district": "AEO",
+  "tier": 1,
+  "slot": 1,
+  "studioAsset": "glossary.png",
+  "depends_on": ["ai-vis-dashboard"],
+  "links": {
+    "repo": "https://github.com/charleslim-ps/glossary-swot"
+  },
+  "sources": {
+    "repo": "charleslim-ps/glossary-swot"
+  }
+}

@@ -1,0 +1,35 @@
+name: Validate
+
+# Schema-validate every manifest + typecheck the app and composer on each PR/push.
+on:
+  pull_request: {}
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Validate manifests against schema
+        working-directory: schema
+        run: |
+          npm ci
+          npm run validate
+
+      - name: Typecheck composer
+        working-directory: composer
+        run: |
+          npm ci
+          npm run typecheck
+
+      - name: Typecheck app
+        working-directory: app
+        run: |
+          npm ci
+          npm run typecheck

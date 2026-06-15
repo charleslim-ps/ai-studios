@@ -1,0 +1,13 @@
+{
+  "name": "ai-studios-schema",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "JSON Schema for studio manifests + a CI validator.",
+  "scripts": {
+    "validate": "node validate.mjs"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1"
+  }
+}
