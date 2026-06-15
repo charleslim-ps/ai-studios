@@ -1,9 +1,0 @@
-{
-  // Static-assets-only Worker: serves the built Vite app (app/dist).
-  // Used by the Cloudflare Workers "Connect to Git" deploy.
-  "name": "ai-studios",
-  "compatibility_date": "2025-06-01",
-  "assets": {
-    "directory": "./app/dist"
-  }
-}
