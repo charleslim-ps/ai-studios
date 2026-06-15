@@ -65,17 +65,12 @@ exists, a drawn placeholder room renders. Add the id to `ART_READY` in
 `app/src/tower/StudioRoom.tsx` once its PNG is in place.
 
 ## Hosting
-Served via **Cloudflare Pages** behind **Cloudflare Access**, gated to anyone with an
-`@partnerstack.com` Google account. The generated `studios.json` carries internal Linear data, so
-it must never be public.
+This launchpad ships on **GitHub Pages** (`deploy.yml`) at
+**https://charleslim-ps.github.io/ai-studios/**, redeploying on every push to `main` and 15 min
+after the daily `studios.json` refresh.
 
-**Setup (one time):**
-1. Keep this **repo private** (so `studios.json` isn't readable on github.com either).
-2. Cloudflare Pages → connect the private `charleslim-ps/ai-studios` repo. Build command
-   `cd app && npm ci && npm run build`, output dir `app/dist`.
-3. Cloudflare Zero Trust → Access → add an application for the Pages domain, identity provider
-   **Google**, with one policy: **Allow** where *Emails ending in* `@partnerstack.com`.
-
-There is intentionally **no GitHub Pages workflow** — GitHub Pages can't enforce the Google-domain
-gate, and would expose the data publicly. Cloudflare Pages auto-deploys on push to `main` (including
-the daily `studios.json` refresh commits).
+⚠️ **GitHub Pages is public** — `studios.json` (Linear todos, priorities, health) is world-readable
+to anyone with the URL. That's an accepted tradeoff for *this* meta-launchpad. **Studios whose own
+data is sensitive should NOT use GitHub Pages** — host them privately instead:
+**Cloudflare Pages** (private repo) behind **Cloudflare Access** with **Google** as IdP and a policy
+allowing *Emails ending in* `@partnerstack.com`.
