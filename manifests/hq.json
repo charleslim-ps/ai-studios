@@ -10,7 +10,7 @@
   "depends_on": [],
   "links": {
     "repo": "https://github.com/charleslim-ps/ai-studios",
-    "launch": "https://ai-studios.pages.dev",
+    "launch": "https://charleslim-ai.pages.dev",
     "project": "https://linear.app/charles-ai/project/charles-ai-studios-hq-490d222449cc"
   },
   "sources": {
