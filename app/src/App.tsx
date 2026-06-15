@@ -28,7 +28,7 @@ export default function App() {
     <div className="page">
       <header className="masthead">
         <h1>Charles AI Studios</h1>
-        <p className="tagline">The Cake — every studio is a room. Click a slice to launch or inspect.</p>
+        <p className="tagline">A stack of studios. Click to launch or inspect.</p>
       </header>
 
       <main className="layout">
