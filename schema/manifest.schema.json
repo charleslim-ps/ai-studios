@@ -36,7 +36,7 @@
       }
     }
   },
-  "comment": "A real (non-coming-soon) studio must declare where its live data comes from.",
+  "comment": "A real (non-coming-soon) studio must declare a live-data source — a GitHub repo, a Linear project, or both. (External-org studios like devs.ai builds are Linear-only: we read their plan but never touch their repo.)",
   "if": {
     "properties": { "stage": { "const": "coming-soon" } }
   },
@@ -44,7 +44,9 @@
   "else": {
     "required": ["sources"],
     "properties": {
-      "sources": { "required": ["repo"] }
+      "sources": {
+        "anyOf": [{ "required": ["repo"] }, { "required": ["linearProjectId"] }]
+      }
     }
   }
 }

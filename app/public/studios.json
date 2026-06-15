@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T04:56:21.780Z",
+  "generatedAt": "2026-06-15T04:59:41.196Z",
   "studios": [
     {
       "id": "hq",
@@ -24,11 +24,11 @@
       "signals": {
         "lastRun": {
           "status": "success",
-          "at": "2026-06-15T04:53:21Z"
+          "at": "2026-06-15T04:57:12Z"
         },
         "deploy": {
           "status": "success",
-          "at": "2026-06-15T04:53:24Z"
+          "at": "2026-06-15T04:57:13Z"
         },
         "freshnessDays": 0,
         "expectedCadenceDays": 14
@@ -37,22 +37,28 @@
       "todos": [],
       "activity": [
         {
-          "at": "2026-06-15T04:53:35Z",
+          "at": "2026-06-15T04:57:28Z",
           "type": "run",
           "summary": "pages build and deployment: success",
-          "link": "https://github.com/charleslim-ps/ai-studios/actions/runs/27524834893"
+          "link": "https://github.com/charleslim-ps/ai-studios/actions/runs/27524949486"
         },
         {
-          "at": "2026-06-15T04:53:34Z",
+          "at": "2026-06-15T04:57:12Z",
           "type": "run",
           "summary": "Deploy to GitHub Pages: success",
-          "link": "https://github.com/charleslim-ps/ai-studios/actions/runs/27524835395"
+          "link": "https://github.com/charleslim-ps/ai-studios/actions/runs/27524949965"
         },
         {
-          "at": "2026-06-15T04:53:21Z",
+          "at": "2026-06-15T04:56:59Z",
           "type": "run",
           "summary": "Validate: success",
-          "link": "https://github.com/charleslim-ps/ai-studios/actions/runs/27524835414"
+          "link": "https://github.com/charleslim-ps/ai-studios/actions/runs/27524949954"
+        },
+        {
+          "at": "2026-06-15T04:56:38Z",
+          "type": "commit",
+          "summary": "Reconcile studios to real repos (read locally, not pasted)",
+          "link": "https://github.com/charleslim-ps/ai-studios/commit/ca07a8f407e4bc0302e58b2177bacc85312bbe1d"
         },
         {
           "at": "2026-06-15T04:53:00Z",
@@ -89,15 +95,9 @@
           "type": "commit",
           "summary": "Seed Linear project IDs into manifests",
           "link": "https://github.com/charleslim-ps/ai-studios/commit/39229c329c7bb513509979ea93f3b1c9804be3dd"
-        },
-        {
-          "at": "2026-06-15T03:38:14Z",
-          "type": "commit",
-          "summary": "Initial commit: ai-studios scaffold (app + composer + config)",
-          "link": "https://github.com/charleslim-ps/ai-studios/commit/ebdf917cad49172a2ae66eff8f0f9caef02c53c6"
         }
       ],
-      "generatedAt": "2026-06-15T04:56:21.780Z"
+      "generatedAt": "2026-06-15T04:59:41.196Z"
     },
     {
       "id": "aeo-maxxing",
@@ -134,7 +134,7 @@
       "roadmap": [],
       "todos": [],
       "activity": [],
-      "generatedAt": "2026-06-15T04:56:21.780Z"
+      "generatedAt": "2026-06-15T04:59:41.196Z"
     },
     {
       "id": "glossary-swot",
@@ -179,7 +179,7 @@
           "link": "https://github.com/charleslim-ps/glossary/commit/11b228d45ecacf52def8efbd2258c3b18426f1ff"
         }
       ],
-      "generatedAt": "2026-06-15T04:56:21.780Z"
+      "generatedAt": "2026-06-15T04:59:41.196Z"
     },
     {
       "id": "citation-partner-overlap",
@@ -217,7 +217,7 @@
       "roadmap": [],
       "todos": [],
       "activity": [],
-      "generatedAt": "2026-06-15T04:56:21.780Z"
+      "generatedAt": "2026-06-15T04:59:41.196Z"
     },
     {
       "id": "ps-enablement",
@@ -253,7 +253,7 @@
       "roadmap": [],
       "todos": [],
       "activity": [],
-      "generatedAt": "2026-06-15T04:56:21.780Z"
+      "generatedAt": "2026-06-15T04:59:41.196Z"
     },
     {
       "id": "research-lab",
@@ -289,12 +289,12 @@
       "roadmap": [],
       "todos": [],
       "activity": [],
-      "generatedAt": "2026-06-15T04:56:21.780Z"
+      "generatedAt": "2026-06-15T04:59:41.196Z"
     },
     {
       "id": "organic-dash",
       "name": "Organic-dash",
-      "purpose": "Control room with dials + funnel. Live-data composer (HubSpot/SF/GA4/GSC) for organic attribution, with methodology tokens.",
+      "purpose": "Control room with dials + funnel. Live-data composer (HubSpot/SF/GA4/GSC) for organic attribution, with methodology tokens. Built on devs.ai; source lives in the AD-Vibe-Coding org, outside this work workspace (Linear-tracked here, never pushed to).",
       "stage": "alpha",
       "district": "Attribution",
       "tier": 4,
@@ -302,11 +302,9 @@
       "studioAsset": "organic-dash.png",
       "depends_on": [],
       "links": {
-        "repo": "https://github.com/charleslim-ps/organic-dash",
         "project": "https://linear.app/charles-ai/project/organic-dash-13588c7eea56"
       },
       "sources": {
-        "repo": "charleslim-ps/organic-dash",
         "linearProjectId": "f47ade9d-b770-4fe9-afde-fe1e22a11eb8"
       },
       "health": "ok",
@@ -325,7 +323,7 @@
       "roadmap": [],
       "todos": [],
       "activity": [],
-      "generatedAt": "2026-06-15T04:56:21.780Z"
+      "generatedAt": "2026-06-15T04:59:41.196Z"
     },
     {
       "id": "ad-studio",
@@ -352,7 +350,7 @@
       "roadmap": [],
       "todos": [],
       "activity": [],
-      "generatedAt": "2026-06-15T04:56:21.780Z"
+      "generatedAt": "2026-06-15T04:59:41.196Z"
     }
   ]
 }

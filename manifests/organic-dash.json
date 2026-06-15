@@ -1,7 +1,7 @@
 {
   "id": "organic-dash",
   "name": "Organic-dash",
-  "purpose": "Control room with dials + funnel. Live-data composer (HubSpot/SF/GA4/GSC) for organic attribution, with methodology tokens.",
+  "purpose": "Control room with dials + funnel. Live-data composer (HubSpot/SF/GA4/GSC) for organic attribution, with methodology tokens. Built on devs.ai; source lives in the AD-Vibe-Coding org, outside this work workspace (Linear-tracked here, never pushed to).",
   "stage": "alpha",
   "district": "Attribution",
   "tier": 4,
@@ -9,11 +9,9 @@
   "studioAsset": "organic-dash.png",
   "depends_on": [],
   "links": {
-    "repo": "https://github.com/charleslim-ps/organic-dash",
     "project": "https://linear.app/charles-ai/project/organic-dash-13588c7eea56"
   },
   "sources": {
-    "repo": "charleslim-ps/organic-dash",
     "linearProjectId": "f47ade9d-b770-4fe9-afde-fe1e22a11eb8"
   }
 }
