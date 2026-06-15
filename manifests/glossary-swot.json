@@ -1,7 +1,7 @@
 {
   "id": "glossary-swot",
   "name": "Glossary SWOT",
-  "purpose": "Hall of card catalogs. Scores /glossary pages on demand/rank + content health, reading the citation dataset to find SWOT opportunities.",
+  "purpose": "Hall of card catalogs. A read-only registry that scores each PartnerStack /glossary term for AEO performance (a SWOT → one action: defend/fix/dedupe/create/concede/prune), consuming AEO Maxxing's citation dataset joined with GSC + content-health.",
   "stage": "alpha",
   "district": "AEO",
   "tier": 1,
@@ -9,11 +9,11 @@
   "studioAsset": "glossary.png",
   "depends_on": ["aeo-maxxing"],
   "links": {
-    "repo": "https://github.com/charleslim-ps/glossary-swot",
+    "repo": "https://github.com/charleslim-ps/glossary",
     "project": "https://linear.app/charles-ai/project/glossary-swot-be67a6d38cb9"
   },
   "sources": {
-    "repo": "charleslim-ps/glossary-swot",
+    "repo": "charleslim-ps/glossary",
     "linearProjectId": "e5a04d63-bfcc-4641-ab92-c4ac5982c03c"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "id": "citation-partner-overlap",
+  "name": "Citation × Partner Overlap",
+  "purpose": "Matchmaking switchboard. Joins AI-cited domains for PartnerStack's topics against PartnerStack's own partner network — tagging existing partners, surfacing net-new cited publishers to recruit, and pushing targets via the connector (dry-run plan first).",
+  "stage": "alpha",
+  "district": "AEO",
+  "tier": 1,
+  "slot": 2,
+  "studioAsset": "citation-partner-overlap.png",
+  "depends_on": ["aeo-maxxing"],
+  "links": {
+    "repo": "https://github.com/charleslim-ps/citation-partner-overlap",
+    "project": "https://linear.app/charles-ai/project/citation-partner-overlap-666c955e34c5"
+  },
+  "sources": {
+    "repo": "charleslim-ps/citation-partner-overlap",
+    "linearProjectId": "b44d68d8-0801-466d-810e-28fa0d2b6a11"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T04:52:51.795Z",
+  "generatedAt": "2026-06-15T04:56:21.780Z",
   "studios": [
     {
       "id": "hq",
@@ -24,11 +24,11 @@
       "signals": {
         "lastRun": {
           "status": "success",
-          "at": "2026-06-15T04:42:39Z"
+          "at": "2026-06-15T04:53:21Z"
         },
         "deploy": {
           "status": "success",
-          "at": "2026-06-15T04:42:50Z"
+          "at": "2026-06-15T04:53:24Z"
         },
         "freshnessDays": 0,
         "expectedCadenceDays": 14
@@ -37,22 +37,28 @@
       "todos": [],
       "activity": [
         {
-          "at": "2026-06-15T04:43:08Z",
+          "at": "2026-06-15T04:53:35Z",
           "type": "run",
           "summary": "pages build and deployment: success",
-          "link": "https://github.com/charleslim-ps/ai-studios/actions/runs/27524502253"
+          "link": "https://github.com/charleslim-ps/ai-studios/actions/runs/27524834893"
         },
         {
-          "at": "2026-06-15T04:42:54Z",
+          "at": "2026-06-15T04:53:34Z",
           "type": "run",
           "summary": "Deploy to GitHub Pages: success",
-          "link": "https://github.com/charleslim-ps/ai-studios/actions/runs/27524502718"
+          "link": "https://github.com/charleslim-ps/ai-studios/actions/runs/27524835395"
         },
         {
-          "at": "2026-06-15T04:42:39Z",
+          "at": "2026-06-15T04:53:21Z",
           "type": "run",
           "summary": "Validate: success",
-          "link": "https://github.com/charleslim-ps/ai-studios/actions/runs/27524502729"
+          "link": "https://github.com/charleslim-ps/ai-studios/actions/runs/27524835414"
+        },
+        {
+          "at": "2026-06-15T04:53:00Z",
+          "type": "commit",
+          "summary": "Reconcile AI-vis Dashboard → AEO Maxxing (real project)",
+          "link": "https://github.com/charleslim-ps/ai-studios/commit/f90c9f3cb7335afd40ba48cd4d9f091c773b854d"
         },
         {
           "at": "2026-06-15T04:42:14Z",
@@ -91,7 +97,7 @@
           "link": "https://github.com/charleslim-ps/ai-studios/commit/ebdf917cad49172a2ae66eff8f0f9caef02c53c6"
         }
       ],
-      "generatedAt": "2026-06-15T04:52:51.795Z"
+      "generatedAt": "2026-06-15T04:56:21.780Z"
     },
     {
       "id": "aeo-maxxing",
@@ -128,12 +134,12 @@
       "roadmap": [],
       "todos": [],
       "activity": [],
-      "generatedAt": "2026-06-15T04:52:51.795Z"
+      "generatedAt": "2026-06-15T04:56:21.780Z"
     },
     {
       "id": "glossary-swot",
       "name": "Glossary SWOT",
-      "purpose": "Hall of card catalogs. Scores /glossary pages on demand/rank + content health, reading the citation dataset to find SWOT opportunities.",
+      "purpose": "Hall of card catalogs. A read-only registry that scores each PartnerStack /glossary term for AEO performance (a SWOT → one action: defend/fix/dedupe/create/concede/prune), consuming AEO Maxxing's citation dataset joined with GSC + content-health.",
       "stage": "alpha",
       "district": "AEO",
       "tier": 1,
@@ -143,11 +149,11 @@
         "aeo-maxxing"
       ],
       "links": {
-        "repo": "https://github.com/charleslim-ps/glossary-swot",
+        "repo": "https://github.com/charleslim-ps/glossary",
         "project": "https://linear.app/charles-ai/project/glossary-swot-be67a6d38cb9"
       },
       "sources": {
-        "repo": "charleslim-ps/glossary-swot",
+        "repo": "charleslim-ps/glossary",
         "linearProjectId": "e5a04d63-bfcc-4641-ab92-c4ac5982c03c"
       },
       "health": "ok",
@@ -160,32 +166,39 @@
           "status": "unknown",
           "at": null
         },
-        "freshnessDays": null,
+        "freshnessDays": 0,
         "expectedCadenceDays": 14
       },
       "roadmap": [],
       "todos": [],
-      "activity": [],
-      "generatedAt": "2026-06-15T04:52:51.795Z"
+      "activity": [
+        {
+          "at": "2026-06-15T02:47:48Z",
+          "type": "commit",
+          "summary": "Bootstrap glossary-swot (Project 2 of 3) — README + work-only remote + push guard",
+          "link": "https://github.com/charleslim-ps/glossary/commit/11b228d45ecacf52def8efbd2258c3b18426f1ff"
+        }
+      ],
+      "generatedAt": "2026-06-15T04:56:21.780Z"
     },
     {
-      "id": "marketplace-overlap",
-      "name": "Marketplace Overlap",
-      "purpose": "Matchmaking switchboard. Joins partner domains against cited domains to ship a recruitment list of high-overlap partners.",
+      "id": "citation-partner-overlap",
+      "name": "Citation × Partner Overlap",
+      "purpose": "Matchmaking switchboard. Joins AI-cited domains for PartnerStack's topics against PartnerStack's own partner network — tagging existing partners, surfacing net-new cited publishers to recruit, and pushing targets via the connector (dry-run plan first).",
       "stage": "alpha",
       "district": "AEO",
       "tier": 1,
       "slot": 2,
-      "studioAsset": "marketplace.png",
+      "studioAsset": "citation-partner-overlap.png",
       "depends_on": [
         "aeo-maxxing"
       ],
       "links": {
-        "repo": "https://github.com/charleslim-ps/marketplace-overlap",
-        "project": "https://linear.app/charles-ai/project/marketplace-overlap-666c955e34c5"
+        "repo": "https://github.com/charleslim-ps/citation-partner-overlap",
+        "project": "https://linear.app/charles-ai/project/citation-partner-overlap-666c955e34c5"
       },
       "sources": {
-        "repo": "charleslim-ps/marketplace-overlap",
+        "repo": "charleslim-ps/citation-partner-overlap",
         "linearProjectId": "b44d68d8-0801-466d-810e-28fa0d2b6a11"
       },
       "health": "ok",
@@ -204,7 +217,7 @@
       "roadmap": [],
       "todos": [],
       "activity": [],
-      "generatedAt": "2026-06-15T04:52:51.795Z"
+      "generatedAt": "2026-06-15T04:56:21.780Z"
     },
     {
       "id": "ps-enablement",
@@ -240,12 +253,12 @@
       "roadmap": [],
       "todos": [],
       "activity": [],
-      "generatedAt": "2026-06-15T04:52:51.795Z"
+      "generatedAt": "2026-06-15T04:56:21.780Z"
     },
     {
       "id": "research-lab",
       "name": "Research Lab",
-      "purpose": "Science lab. A filterable registry of research charts; scheduled Looker composer pulls live numbers and publishes to Webflow.",
+      "purpose": "Science lab. A deployed read-only chart registry + redesign production queue (keep/refresh/retire); a scheduled composer pulls Sheet/Looker/Docs/Figma and writes charts.json to a static Cloudflare Pages app.",
       "stage": "beta",
       "district": "Research",
       "tier": 3,
@@ -253,11 +266,11 @@
       "studioAsset": "research-lab.png",
       "depends_on": [],
       "links": {
-        "repo": "https://github.com/charleslim-ps/research-lab-registry",
+        "repo": "https://github.com/charleslim-ps/research-lab",
         "project": "https://linear.app/charles-ai/project/research-lab-b47dccc5e56d"
       },
       "sources": {
-        "repo": "charleslim-ps/research-lab-registry",
+        "repo": "charleslim-ps/research-lab",
         "linearProjectId": "815efe1c-3d45-43d1-9023-d738bfded420"
       },
       "health": "ok",
@@ -276,7 +289,7 @@
       "roadmap": [],
       "todos": [],
       "activity": [],
-      "generatedAt": "2026-06-15T04:52:51.795Z"
+      "generatedAt": "2026-06-15T04:56:21.780Z"
     },
     {
       "id": "organic-dash",
@@ -312,7 +325,7 @@
       "roadmap": [],
       "todos": [],
       "activity": [],
-      "generatedAt": "2026-06-15T04:52:51.795Z"
+      "generatedAt": "2026-06-15T04:56:21.780Z"
     },
     {
       "id": "ad-studio",
@@ -339,7 +352,7 @@
       "roadmap": [],
       "todos": [],
       "activity": [],
-      "generatedAt": "2026-06-15T04:52:51.795Z"
+      "generatedAt": "2026-06-15T04:56:21.780Z"
     }
   ]
 }

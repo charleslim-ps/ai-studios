@@ -1,7 +1,7 @@
 {
   "id": "research-lab",
   "name": "Research Lab",
-  "purpose": "Science lab. A filterable registry of research charts; scheduled Looker composer pulls live numbers and publishes to Webflow.",
+  "purpose": "Science lab. A deployed read-only chart registry + redesign production queue (keep/refresh/retire); a scheduled composer pulls Sheet/Looker/Docs/Figma and writes charts.json to a static Cloudflare Pages app.",
   "stage": "beta",
   "district": "Research",
   "tier": 3,
@@ -9,11 +9,11 @@
   "studioAsset": "research-lab.png",
   "depends_on": [],
   "links": {
-    "repo": "https://github.com/charleslim-ps/research-lab-registry",
+    "repo": "https://github.com/charleslim-ps/research-lab",
     "project": "https://linear.app/charles-ai/project/research-lab-b47dccc5e56d"
   },
   "sources": {
-    "repo": "charleslim-ps/research-lab-registry",
+    "repo": "charleslim-ps/research-lab",
     "linearProjectId": "815efe1c-3d45-43d1-9023-d738bfded420"
   }
 }
