@@ -9,9 +9,11 @@
   "studioAsset": "ai-vis.png",
   "depends_on": [],
   "links": {
-    "repo": "https://github.com/charleslim-ps/ai-vis"
+    "repo": "https://github.com/charleslim-ps/ai-vis",
+    "project": "https://linear.app/charles-ai/project/ai-vis-dashboard-ff6b3596bbba"
   },
   "sources": {
-    "repo": "charleslim-ps/ai-vis"
+    "repo": "charleslim-ps/ai-vis",
+    "linearProjectId": "542624fd-ea7a-473f-83a0-ab4b4c694f5c"
   }
 }

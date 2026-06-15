@@ -9,9 +9,11 @@
   "studioAsset": "ps-enablement.png",
   "depends_on": [],
   "links": {
-    "repo": "https://github.com/charleslim-ps/ps-enablement"
+    "repo": "https://github.com/charleslim-ps/ps-enablement",
+    "project": "https://linear.app/charles-ai/project/ps-enablement-466e652c72a3"
   },
   "sources": {
-    "repo": "charleslim-ps/ps-enablement"
+    "repo": "charleslim-ps/ps-enablement",
+    "linearProjectId": "72a6b280-3a1b-4e28-bedd-06f1f2eaf24c"
   }
 }

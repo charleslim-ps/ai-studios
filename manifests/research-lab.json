@@ -9,9 +9,11 @@
   "studioAsset": "research-lab.png",
   "depends_on": [],
   "links": {
-    "repo": "https://github.com/charleslim-ps/research-lab-registry"
+    "repo": "https://github.com/charleslim-ps/research-lab-registry",
+    "project": "https://linear.app/charles-ai/project/research-lab-b47dccc5e56d"
   },
   "sources": {
-    "repo": "charleslim-ps/research-lab-registry"
+    "repo": "charleslim-ps/research-lab-registry",
+    "linearProjectId": "815efe1c-3d45-43d1-9023-d738bfded420"
   }
 }

@@ -9,9 +9,11 @@
   "studioAsset": "organic-dash.png",
   "depends_on": [],
   "links": {
-    "repo": "https://github.com/charleslim-ps/organic-dash"
+    "repo": "https://github.com/charleslim-ps/organic-dash",
+    "project": "https://linear.app/charles-ai/project/organic-dash-13588c7eea56"
   },
   "sources": {
-    "repo": "charleslim-ps/organic-dash"
+    "repo": "charleslim-ps/organic-dash",
+    "linearProjectId": "f47ade9d-b770-4fe9-afde-fe1e22a11eb8"
   }
 }

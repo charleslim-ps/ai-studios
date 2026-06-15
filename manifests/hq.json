@@ -10,9 +10,11 @@
   "depends_on": [],
   "links": {
     "repo": "https://github.com/charleslim-ps/ai-studios",
-    "launch": "https://ai-studios.pages.dev"
+    "launch": "https://ai-studios.pages.dev",
+    "project": "https://linear.app/charles-ai/project/charles-ai-studios-hq-490d222449cc"
   },
   "sources": {
-    "repo": "charleslim-ps/ai-studios"
+    "repo": "charleslim-ps/ai-studios",
+    "linearProjectId": "775ab66a-b4c7-494f-9a3b-d5b91a03a56f"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T03:15:32.943Z",
+  "generatedAt": "2026-06-15T03:47:40.667Z",
   "studios": [
     {
       "id": "hq",
@@ -13,28 +13,49 @@
       "depends_on": [],
       "links": {
         "repo": "https://github.com/charleslim-ps/ai-studios",
-        "launch": "https://ai-studios.pages.dev"
+        "launch": "https://ai-studios.pages.dev",
+        "project": "https://linear.app/charles-ai/project/charles-ai-studios-hq-490d222449cc"
       },
       "sources": {
-        "repo": "charleslim-ps/ai-studios"
+        "repo": "charleslim-ps/ai-studios",
+        "linearProjectId": "775ab66a-b4c7-494f-9a3b-d5b91a03a56f"
       },
       "health": "ok",
       "signals": {
         "lastRun": {
-          "status": "unknown",
-          "at": null
+          "status": "failure",
+          "at": "2026-06-15T03:38:38Z"
         },
         "deploy": {
           "status": "unknown",
           "at": null
         },
-        "freshnessDays": null,
+        "freshnessDays": 0,
         "expectedCadenceDays": 14
       },
       "roadmap": [],
       "todos": [],
-      "activity": [],
-      "generatedAt": "2026-06-15T03:15:32.943Z"
+      "activity": [
+        {
+          "at": "2026-06-15T03:38:43Z",
+          "type": "run",
+          "summary": "Validate: success",
+          "link": "https://github.com/charleslim-ps/ai-studios/actions/runs/27522502862"
+        },
+        {
+          "at": "2026-06-15T03:38:38Z",
+          "type": "run",
+          "summary": "Deploy to GitHub Pages: failure",
+          "link": "https://github.com/charleslim-ps/ai-studios/actions/runs/27522502883"
+        },
+        {
+          "at": "2026-06-15T03:38:14Z",
+          "type": "commit",
+          "summary": "Initial commit: ai-studios scaffold (app + composer + config)",
+          "link": "https://github.com/charleslim-ps/ai-studios/commit/ebdf917cad49172a2ae66eff8f0f9caef02c53c6"
+        }
+      ],
+      "generatedAt": "2026-06-15T03:47:40.667Z"
     },
     {
       "id": "ai-vis-dashboard",
@@ -47,10 +68,12 @@
       "studioAsset": "ai-vis.png",
       "depends_on": [],
       "links": {
-        "repo": "https://github.com/charleslim-ps/ai-vis"
+        "repo": "https://github.com/charleslim-ps/ai-vis",
+        "project": "https://linear.app/charles-ai/project/ai-vis-dashboard-ff6b3596bbba"
       },
       "sources": {
-        "repo": "charleslim-ps/ai-vis"
+        "repo": "charleslim-ps/ai-vis",
+        "linearProjectId": "542624fd-ea7a-473f-83a0-ab4b4c694f5c"
       },
       "health": "ok",
       "signals": {
@@ -68,7 +91,7 @@
       "roadmap": [],
       "todos": [],
       "activity": [],
-      "generatedAt": "2026-06-15T03:15:32.943Z"
+      "generatedAt": "2026-06-15T03:47:40.667Z"
     },
     {
       "id": "glossary-swot",
@@ -83,10 +106,12 @@
         "ai-vis-dashboard"
       ],
       "links": {
-        "repo": "https://github.com/charleslim-ps/glossary-swot"
+        "repo": "https://github.com/charleslim-ps/glossary-swot",
+        "project": "https://linear.app/charles-ai/project/glossary-swot-be67a6d38cb9"
       },
       "sources": {
-        "repo": "charleslim-ps/glossary-swot"
+        "repo": "charleslim-ps/glossary-swot",
+        "linearProjectId": "e5a04d63-bfcc-4641-ab92-c4ac5982c03c"
       },
       "health": "ok",
       "signals": {
@@ -104,7 +129,7 @@
       "roadmap": [],
       "todos": [],
       "activity": [],
-      "generatedAt": "2026-06-15T03:15:32.943Z"
+      "generatedAt": "2026-06-15T03:47:40.667Z"
     },
     {
       "id": "marketplace-overlap",
@@ -119,10 +144,12 @@
         "ai-vis-dashboard"
       ],
       "links": {
-        "repo": "https://github.com/charleslim-ps/marketplace-overlap"
+        "repo": "https://github.com/charleslim-ps/marketplace-overlap",
+        "project": "https://linear.app/charles-ai/project/marketplace-overlap-666c955e34c5"
       },
       "sources": {
-        "repo": "charleslim-ps/marketplace-overlap"
+        "repo": "charleslim-ps/marketplace-overlap",
+        "linearProjectId": "b44d68d8-0801-466d-810e-28fa0d2b6a11"
       },
       "health": "ok",
       "signals": {
@@ -140,7 +167,7 @@
       "roadmap": [],
       "todos": [],
       "activity": [],
-      "generatedAt": "2026-06-15T03:15:32.943Z"
+      "generatedAt": "2026-06-15T03:47:40.667Z"
     },
     {
       "id": "ps-enablement",
@@ -153,10 +180,12 @@
       "studioAsset": "ps-enablement.png",
       "depends_on": [],
       "links": {
-        "repo": "https://github.com/charleslim-ps/ps-enablement"
+        "repo": "https://github.com/charleslim-ps/ps-enablement",
+        "project": "https://linear.app/charles-ai/project/ps-enablement-466e652c72a3"
       },
       "sources": {
-        "repo": "charleslim-ps/ps-enablement"
+        "repo": "charleslim-ps/ps-enablement",
+        "linearProjectId": "72a6b280-3a1b-4e28-bedd-06f1f2eaf24c"
       },
       "health": "ok",
       "signals": {
@@ -174,7 +203,7 @@
       "roadmap": [],
       "todos": [],
       "activity": [],
-      "generatedAt": "2026-06-15T03:15:32.943Z"
+      "generatedAt": "2026-06-15T03:47:40.667Z"
     },
     {
       "id": "research-lab",
@@ -187,10 +216,12 @@
       "studioAsset": "research-lab.png",
       "depends_on": [],
       "links": {
-        "repo": "https://github.com/charleslim-ps/research-lab-registry"
+        "repo": "https://github.com/charleslim-ps/research-lab-registry",
+        "project": "https://linear.app/charles-ai/project/research-lab-b47dccc5e56d"
       },
       "sources": {
-        "repo": "charleslim-ps/research-lab-registry"
+        "repo": "charleslim-ps/research-lab-registry",
+        "linearProjectId": "815efe1c-3d45-43d1-9023-d738bfded420"
       },
       "health": "ok",
       "signals": {
@@ -208,7 +239,7 @@
       "roadmap": [],
       "todos": [],
       "activity": [],
-      "generatedAt": "2026-06-15T03:15:32.943Z"
+      "generatedAt": "2026-06-15T03:47:40.667Z"
     },
     {
       "id": "organic-dash",
@@ -221,10 +252,12 @@
       "studioAsset": "organic-dash.png",
       "depends_on": [],
       "links": {
-        "repo": "https://github.com/charleslim-ps/organic-dash"
+        "repo": "https://github.com/charleslim-ps/organic-dash",
+        "project": "https://linear.app/charles-ai/project/organic-dash-13588c7eea56"
       },
       "sources": {
-        "repo": "charleslim-ps/organic-dash"
+        "repo": "charleslim-ps/organic-dash",
+        "linearProjectId": "f47ade9d-b770-4fe9-afde-fe1e22a11eb8"
       },
       "health": "ok",
       "signals": {
@@ -242,7 +275,7 @@
       "roadmap": [],
       "todos": [],
       "activity": [],
-      "generatedAt": "2026-06-15T03:15:32.943Z"
+      "generatedAt": "2026-06-15T03:47:40.667Z"
     },
     {
       "id": "ad-studio",
@@ -269,7 +302,7 @@
       "roadmap": [],
       "todos": [],
       "activity": [],
-      "generatedAt": "2026-06-15T03:15:32.943Z"
+      "generatedAt": "2026-06-15T03:47:40.667Z"
     }
   ]
 }

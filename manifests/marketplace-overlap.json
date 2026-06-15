@@ -9,9 +9,11 @@
   "studioAsset": "marketplace.png",
   "depends_on": ["ai-vis-dashboard"],
   "links": {
-    "repo": "https://github.com/charleslim-ps/marketplace-overlap"
+    "repo": "https://github.com/charleslim-ps/marketplace-overlap",
+    "project": "https://linear.app/charles-ai/project/marketplace-overlap-666c955e34c5"
   },
   "sources": {
-    "repo": "charleslim-ps/marketplace-overlap"
+    "repo": "charleslim-ps/marketplace-overlap",
+    "linearProjectId": "b44d68d8-0801-466d-810e-28fa0d2b6a11"
   }
 }

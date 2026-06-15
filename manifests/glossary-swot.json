@@ -9,9 +9,11 @@
   "studioAsset": "glossary.png",
   "depends_on": ["ai-vis-dashboard"],
   "links": {
-    "repo": "https://github.com/charleslim-ps/glossary-swot"
+    "repo": "https://github.com/charleslim-ps/glossary-swot",
+    "project": "https://linear.app/charles-ai/project/glossary-swot-be67a6d38cb9"
   },
   "sources": {
-    "repo": "charleslim-ps/glossary-swot"
+    "repo": "charleslim-ps/glossary-swot",
+    "linearProjectId": "e5a04d63-bfcc-4641-ab92-c4ac5982c03c"
   }
 }
