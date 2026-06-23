@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T11:51:29.258Z",
+  "generatedAt": "2026-06-23T09:36:18.371Z",
   "studios": [
     {
       "id": "hq",
@@ -24,13 +24,13 @@
       "signals": {
         "lastRun": {
           "status": "in_progress",
-          "at": "2026-06-22T11:51:23Z"
+          "at": "2026-06-23T09:36:10Z"
         },
         "deploy": {
           "status": "success",
           "at": "2026-06-15T15:16:35Z"
         },
-        "freshnessDays": 1,
+        "freshnessDays": 0,
         "expectedCadenceDays": 14
       },
       "roadmap": [
@@ -67,10 +67,22 @@
       ],
       "activity": [
         {
-          "at": "2026-06-22T11:51:23Z",
+          "at": "2026-06-23T09:36:10Z",
           "type": "run",
           "summary": "Refresh studios.json: in_progress",
+          "link": "https://github.com/charleslim-ps/ai-studios/actions/runs/28016810507"
+        },
+        {
+          "at": "2026-06-22T11:51:34Z",
+          "type": "run",
+          "summary": "Refresh studios.json: success",
           "link": "https://github.com/charleslim-ps/ai-studios/actions/runs/27950553727"
+        },
+        {
+          "at": "2026-06-22T11:51:30Z",
+          "type": "commit",
+          "summary": "chore: refresh studios.json",
+          "link": "https://github.com/charleslim-ps/ai-studios/commit/71185c1f3600271f88a16c7805674ded1f6905c8"
         },
         {
           "at": "2026-06-21T09:48:13Z",
@@ -83,12 +95,6 @@
           "type": "commit",
           "summary": "chore: refresh studios.json",
           "link": "https://github.com/charleslim-ps/ai-studios/commit/eba2e21f69b279fdc8be2c4c55b4ff58ac15da4b"
-        },
-        {
-          "at": "2026-06-20T08:53:35Z",
-          "type": "run",
-          "summary": "Refresh studios.json: success",
-          "link": "https://github.com/charleslim-ps/ai-studios/actions/runs/27866205632"
         },
         {
           "at": "2026-06-20T08:53:32Z",
@@ -119,15 +125,9 @@
           "type": "commit",
           "summary": "chore: refresh studios.json",
           "link": "https://github.com/charleslim-ps/ai-studios/commit/7bd08084c7b1242ca69393a418898cd8de14a8da"
-        },
-        {
-          "at": "2026-06-15T15:15:59Z",
-          "type": "commit",
-          "summary": "chore: trigger Pages deploy under GitHub Actions source",
-          "link": "https://github.com/charleslim-ps/ai-studios/commit/a2ec4c4ae61cb01a2219b34963d5dd381035aeff"
         }
       ],
-      "generatedAt": "2026-06-22T11:51:29.258Z"
+      "generatedAt": "2026-06-23T09:36:18.371Z"
     },
     {
       "id": "aeo-maxxing",
@@ -152,13 +152,13 @@
       "signals": {
         "lastRun": {
           "status": "success",
-          "at": "2026-06-21T10:37:35Z"
+          "at": "2026-06-22T12:56:47Z"
         },
         "deploy": {
           "status": "unknown",
           "at": null
         },
-        "freshnessDays": 1,
+        "freshnessDays": 0,
         "expectedCadenceDays": 14
       },
       "roadmap": [
@@ -195,28 +195,34 @@
       ],
       "activity": [
         {
+          "at": "2026-06-22T12:56:47Z",
+          "type": "run",
+          "summary": "pages build and deployment: success",
+          "link": "https://github.com/charleslim-ps/aeo-maxxing/actions/runs/27954184135"
+        },
+        {
+          "at": "2026-06-22T12:54:51Z",
+          "type": "run",
+          "summary": "compose: success",
+          "link": "https://github.com/charleslim-ps/aeo-maxxing/actions/runs/27954166703"
+        },
+        {
+          "at": "2026-06-22T12:54:46Z",
+          "type": "commit",
+          "summary": "chore: refresh citations snapshot [skip ci]",
+          "link": "https://github.com/charleslim-ps/aeo-maxxing/commit/e851e26f7ed1f3386dcde51e6d6feb53c52ac4d0"
+        },
+        {
           "at": "2026-06-21T10:37:35Z",
           "type": "run",
           "summary": "pages build and deployment: success",
           "link": "https://github.com/charleslim-ps/aeo-maxxing/actions/runs/27901650152"
         },
         {
-          "at": "2026-06-21T10:36:54Z",
-          "type": "run",
-          "summary": "compose: success",
-          "link": "https://github.com/charleslim-ps/aeo-maxxing/actions/runs/27901644542"
-        },
-        {
           "at": "2026-06-21T10:36:50Z",
           "type": "commit",
           "summary": "chore: refresh citations snapshot [skip ci]",
           "link": "https://github.com/charleslim-ps/aeo-maxxing/commit/55aae7271e170428cf27cbc2336cd0461bfb128a"
-        },
-        {
-          "at": "2026-06-20T10:12:44Z",
-          "type": "run",
-          "summary": "pages build and deployment: success",
-          "link": "https://github.com/charleslim-ps/aeo-maxxing/actions/runs/27868022446"
         },
         {
           "at": "2026-06-20T10:12:01Z",
@@ -247,15 +253,9 @@
           "type": "commit",
           "summary": "chore: refresh citations snapshot [skip ci]",
           "link": "https://github.com/charleslim-ps/aeo-maxxing/commit/9dec3e671420ade0bd8f2ec90084481706c104b1"
-        },
-        {
-          "at": "2026-06-15T13:22:58Z",
-          "type": "commit",
-          "summary": "chore: refresh citations snapshot [skip ci]",
-          "link": "https://github.com/charleslim-ps/aeo-maxxing/commit/b36a7f7f4e5673e32bb1dc521ed6730f0650f6e9"
         }
       ],
-      "generatedAt": "2026-06-22T11:51:29.258Z"
+      "generatedAt": "2026-06-23T09:36:18.371Z"
     },
     {
       "id": "glossary-swot",
@@ -287,7 +287,7 @@
           "status": "unknown",
           "at": null
         },
-        "freshnessDays": 7,
+        "freshnessDays": 8,
         "expectedCadenceDays": 14
       },
       "roadmap": [
@@ -330,7 +330,7 @@
           "link": "https://github.com/charleslim-ps/glossary/commit/11b228d45ecacf52def8efbd2258c3b18426f1ff"
         }
       ],
-      "generatedAt": "2026-06-22T11:51:29.258Z"
+      "generatedAt": "2026-06-23T09:36:18.371Z"
     },
     {
       "id": "citation-partner-overlap",
@@ -398,7 +398,7 @@
         }
       ],
       "activity": [],
-      "generatedAt": "2026-06-22T11:51:29.258Z"
+      "generatedAt": "2026-06-23T09:36:18.371Z"
     },
     {
       "id": "ps-enablement",
@@ -428,7 +428,7 @@
           "status": "unknown",
           "at": null
         },
-        "freshnessDays": 44,
+        "freshnessDays": 45,
         "expectedCadenceDays": 14
       },
       "roadmap": [
@@ -507,7 +507,7 @@
           "link": "https://github.com/charleslim-ps/ps-enablement/commit/74f23006fe2c0e1c500ded039d0fcbecd39819da"
         }
       ],
-      "generatedAt": "2026-06-22T11:51:29.258Z"
+      "generatedAt": "2026-06-23T09:36:18.371Z"
     },
     {
       "id": "research-lab",
@@ -531,13 +531,13 @@
       "signals": {
         "lastRun": {
           "status": "failure",
-          "at": "2026-06-21T09:50:29Z"
+          "at": "2026-06-22T11:55:03Z"
         },
         "deploy": {
           "status": "unknown",
           "at": null
         },
-        "freshnessDays": 7,
+        "freshnessDays": 8,
         "expectedCadenceDays": 14
       },
       "roadmap": [
@@ -574,6 +574,12 @@
       ],
       "activity": [
         {
+          "at": "2026-06-22T11:55:03Z",
+          "type": "run",
+          "summary": "Refresh charts.json: failure",
+          "link": "https://github.com/charleslim-ps/research-lab/actions/runs/27950733641"
+        },
+        {
           "at": "2026-06-21T09:50:29Z",
           "type": "run",
           "summary": "Refresh charts.json: failure",
@@ -584,12 +590,6 @@
           "type": "run",
           "summary": "Refresh charts.json: failure",
           "link": "https://github.com/charleslim-ps/research-lab/actions/runs/27866273032"
-        },
-        {
-          "at": "2026-06-19T10:26:51Z",
-          "type": "run",
-          "summary": "Refresh charts.json: failure",
-          "link": "https://github.com/charleslim-ps/research-lab/actions/runs/27820215287"
         },
         {
           "at": "2026-06-15T03:10:39Z",
@@ -610,7 +610,7 @@
           "link": "https://github.com/charleslim-ps/research-lab/commit/a976d289a589158652e0878f7bc62ca53415d27f"
         }
       ],
-      "generatedAt": "2026-06-22T11:51:29.258Z"
+      "generatedAt": "2026-06-23T09:36:18.371Z"
     },
     {
       "id": "organic-dash",
@@ -674,7 +674,7 @@
         }
       ],
       "activity": [],
-      "generatedAt": "2026-06-22T11:51:29.258Z"
+      "generatedAt": "2026-06-23T09:36:18.371Z"
     },
     {
       "id": "ad-studio",
@@ -701,7 +701,7 @@
       "roadmap": [],
       "todos": [],
       "activity": [],
-      "generatedAt": "2026-06-22T11:51:29.258Z"
+      "generatedAt": "2026-06-23T09:36:18.371Z"
     }
   ]
 }
