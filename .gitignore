@@ -15,3 +15,6 @@ app/dist/
 
 # Machine-local Claude config
 .claude/
+
+# Research Lab Benchmark raw Looker pulls (per-vendor figures)
+research-lab-benchmark/data/
