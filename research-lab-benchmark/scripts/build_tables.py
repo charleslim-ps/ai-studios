@@ -1,4 +1,4 @@
-"""Build the lookup tables for agent-instructions.md from three Looker pulls.
+"""Build the lookup tables for benchmark-instructions.md from three Looker pulls.
 
 Inputs (JSON as returned by the Looker MCP query_explore tool, saved to ../data/,
 which is gitignored because it holds per-vendor figures; or point BENCHMARK_DATA
@@ -15,7 +15,7 @@ at another folder):
       filter: reward.created_date = 2024/01/01 to 2026/01/01
 
 Usage: python3 build_tables.py > tables.md
-Then paste the output over the matching sections of agent-instructions.md.
+Then paste the output over the matching sections of benchmark-instructions.md.
 """
 import json
 import os
