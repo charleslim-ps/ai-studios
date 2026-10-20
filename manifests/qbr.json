@@ -1,10 +1,17 @@
 {
   "id": "qbr",
   "name": "QBR",
-  "purpose": "COMING SOON — quarterly business review for PartnerStack Brand Marketing, rolling up to AppDirect Brand Marketing. About 5 slides each quarter: intro, KPI tiles (AI visibility, website, distribution, proof), two deep dives, closer.",
-  "stage": "coming-soon",
+  "purpose": "Quarterly business review for PartnerStack Brand Marketing, rolling up to AppDirect Brand Marketing. About 5 slides each quarter: intro, KPI tiles (AI visibility, website, distribution, proof), two deep dives, closer.",
+  "stage": "alpha",
   "district": "Attribution",
   "tier": 4,
   "slot": 2,
-  "studioAsset": "coming-soon.png"
+  "studioAsset": "coming-soon.png",
+  "depends_on": ["aeo-maxxing"],
+  "links": {
+    "repo": "https://github.com/charleslim-ps/qbr"
+  },
+  "sources": {
+    "repo": "charleslim-ps/qbr"
+  }
 }
