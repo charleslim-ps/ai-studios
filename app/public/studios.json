@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T15:29:49.836Z",
+  "generatedAt": "2026-11-18T15:06:27.776Z",
   "studios": [
     {
       "id": "hq",
@@ -66,7 +66,7 @@
         }
       ],
       "activity": [],
-      "generatedAt": "2026-11-17T15:29:49.836Z"
+      "generatedAt": "2026-11-18T15:06:27.776Z"
     },
     {
       "id": "aeo-maxxing",
@@ -133,7 +133,7 @@
         }
       ],
       "activity": [],
-      "generatedAt": "2026-11-17T15:29:49.836Z"
+      "generatedAt": "2026-11-18T15:06:27.776Z"
     },
     {
       "id": "glossary-swot",
@@ -201,7 +201,7 @@
         }
       ],
       "activity": [],
-      "generatedAt": "2026-11-17T15:29:49.836Z"
+      "generatedAt": "2026-11-18T15:06:27.776Z"
     },
     {
       "id": "citation-partner-overlap",
@@ -269,7 +269,7 @@
         }
       ],
       "activity": [],
-      "generatedAt": "2026-11-17T15:29:49.836Z"
+      "generatedAt": "2026-11-18T15:06:27.776Z"
     },
     {
       "id": "ps-enablement",
@@ -329,7 +329,7 @@
         }
       ],
       "activity": [],
-      "generatedAt": "2026-11-17T15:29:49.836Z"
+      "generatedAt": "2026-11-18T15:06:27.776Z"
     },
     {
       "id": "research-lab",
@@ -395,7 +395,7 @@
         }
       ],
       "activity": [],
-      "generatedAt": "2026-11-17T15:29:49.836Z"
+      "generatedAt": "2026-11-18T15:06:27.776Z"
     },
     {
       "id": "organic-dash",
@@ -459,7 +459,7 @@
         }
       ],
       "activity": [],
-      "generatedAt": "2026-11-17T15:29:49.836Z"
+      "generatedAt": "2026-11-18T15:06:27.776Z"
     },
     {
       "id": "ad-studio",
@@ -486,7 +486,7 @@
       "roadmap": [],
       "todos": [],
       "activity": [],
-      "generatedAt": "2026-11-17T15:29:49.836Z"
+      "generatedAt": "2026-11-18T15:06:27.776Z"
     }
   ]
 }
